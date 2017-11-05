@@ -5,21 +5,22 @@ theme = "hugo-initio"
 publishDir = "docs"
 
 [params]
-    name = "Anthony Russel"
-    description = "A mystery person"
-    email = "anthony.russel42@example.com"
-    phone = "+234 23 9873237"
-    address = "234 Hidden Pond Road, Ashland City, TN 37015"
+    sitename = "Abide"
+    Mname = "Mike & Robyn Carnill"
+    Mdescription = "Abide"
+    email = "info@abide.community"
+    phone = ""
+    address = "323 Linwood, Rochester, MI 48307"
     year = 2017
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
 
     showSubheader = true
-    showServices = true
+    showServices = false
     showRecentWorks = true
-    showDownload = true
-    showClients = true
+    showDownload = false
+    showClients = false
 
 [[menu.main]]
     name = "home"

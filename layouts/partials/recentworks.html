@@ -1,0 +1,25 @@
+<div class="section recentworks topspace">
+<div class="row">
+
+    <h2 class="section-title"><span>Our Community</span></h2>
+    
+    <p class="our-community">Abide exists to help people become trusting and obedient to what God is doing in and through their lives. We encourage you to meet some of the people doing that right here in Detroit and beyond.</p>
+
+    <div class="thumbnails row">
+
+        {{ range $index, $area := .Site.Data.recentworks }}
+            <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                <a class="thumbnail" href="{{ .url }}">
+                    <span class="img">
+                        <img src="{{ .image }}" alt="">
+                        <span class="cover"><span class="more">Ver detalles &rarr;</span></span>
+                    </span>
+                    <span class="title">{{ .name }}</span>
+                </a>
+                <h4></h4>
+                <p></p>
+            </div>
+        {{ end }}
+</div>
+</div><!--/row-->
+</div> <!-- /section -->

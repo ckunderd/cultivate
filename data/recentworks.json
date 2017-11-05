@@ -1,100 +1,100 @@
 [
     {
         "id": 0,
-        "name": "Sample title - big data solutions",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Beholders",
+        "image": "images/abide_ministries2.jpg",
+        "url": "beholders",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "",
+                "url": ""
             },
             {
-                "name": "Wordpress",
-                "url": "#"
+                "name": "",
+                "url": ""
             },
             {
-                "name": "Logotype",
-                "url": "#"
+                "name": "",
+                "url": ""
             }
         ]
     },
     {
         "id": 1,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "70x7",
+        "image": "images/abide_ministries5.jpg",
+        "url": "70x7",
         "items": [
             {
-                "name": "Web design",
-                "url": "#"
+                "name": "",
+                "url": ""
             },
             {
-                "name": "Wordpress",
-                "url": "#"
+                "name": "",
+                "url": ""
             }
         ]
     },
     {
         "id": 2,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Patron",
+        "image": "images/abide_ministries.jpg",
+        "url": "patron",
         "items": [
             {
-                "name": "Web design",
+                "name": "",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "",
                 "url": "#"
             }
         ]
     },
     {
         "id": 3,
-        "name": "Pure ipsum - development services for people",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Restoring",
+        "image": "images/abide_ministries3.jpg",
+        "url": "restoring",
         "items": [
             {
-                "name": "Web design",
+                "name": "",
                 "url": "#"
             },
             {
-                "name": "Wordpress",
+                "name": "",
                 "url": "#"
             }
         ]
     },
     {
         "id": 4,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Cultivate",
+        "image": "images/abide_ministries6.jpg",
+        "url": "cultivate",
         "items": [
             {
-                "name": "Web design",
+                "name": "",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "",
                 "url": "#"
             }
         ]
     },
     {
         "id": 5,
-        "name": "Lorem studios - interior and patio design",
-        "image": "images/s1.jpg",
-        "url": "#",
+        "name": "Abide",
+        "image": "images/abide_ministries4.jpg",
+        "url": "abide",
         "items": [
             {
-                "name": "Web design",
+                "name": "",
                 "url": "#"
             },
             {
-                "name": "Logotype",
+                "name": "",
                 "url": "#"
             }
         ]
