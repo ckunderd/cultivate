@@ -10,8 +10,8 @@ ministryname = "Cultivate"
 ministrydescription = "Cam & Lyndee Underdown"
 overview = "exists to develop kingdom workers in the Christlike character necessary to grow God's kingdom."
 ministry_overview = "Cam Underdown is a pastor and director of Cultivate, a ministry devoted to developing people, plans, and prayer support to grow God's Kingdom."
-donate_form = '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/cultivate" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
 +++
+{{< donorbox cultivate >}}
 
 In order to sustain their work of creating opportunities for people to share their faith and become ready for missions, Beholders receives donations as part of Abide Ministries, a 501(c)(3) organization located in Rochester, MI that provides financial and organizational oversight. All donations made to Beholders are tax-deductible through Abide Ministries. To learn more about Abide, please visit www.abide.community. Abide partners with Donorbox to enable donors to make one time and recurring donations, while allowing them to manage their own giving in a safe, secure, and reliable environment. 
 

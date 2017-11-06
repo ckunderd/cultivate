@@ -613,6 +613,7 @@ p.version {
 .ministry-name {font-weight: 400; text-transform: uppercase;}
 .donate-overview h3 {text-transform: uppercase; font-weight: 200;}
 .donate-overview .ministry-name {font-weight: 400;}
+.embed.donorbox {float: right; width: 50%; margin-left: 5%;}
 /*********************************************************************
 
 
