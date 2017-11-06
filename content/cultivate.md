@@ -1,22 +1,32 @@
 +++
 menu = ""
-parent = "about"
+parent = "initiatives"
 title = "Cultivate"
 type = "ministry"
 weight = 10
-header_image = "images/AbideWeb-146.jpg"
+header_image = "images/cultivate_header.jpg"
+sub_background = "images/cultivate_sub_background.jpg"
 ministryname = "Cultivate"
 ministrydescription = "Cam & Lyndee Underdown"
+overview = "exists to develop kingdom workers in the Christlike character necessary to grow God's kingdom."
+ministry_overview = "Cam Underdown is a pastor and director of Cultivate, a ministry devoted to developing people, plans, and prayer support to grow God's Kingdom."
+donate_form = '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/cultivate" height="685px" width="100%" style="max-width:500px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
 +++
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam beatae soluta accusantium iusto nihil nesciunt unde veniam magnam repudiandae sapiente.
+In order to sustain their work of creating opportunities for people to share their faith and become ready for missions, Beholders receives donations as part of Abide Ministries, a 501(c)(3) organization located in Rochester, MI that provides financial and organizational oversight. All donations made to Beholders are tax-deductible through Abide Ministries. To learn more about Abide, please visit www.abide.community. Abide partners with Donorbox to enable donors to make one time and recurring donations, while allowing them to manage their own giving in a safe, secure, and reliable environment. 
 
-![about](../images/mac.jpg)
 
-### Necessitatibus
+### ONLINE GIFTS
 
-Velit, odit, eius, libero unde impedit quaerat dolorem assumenda alias consequuntur optio quae maiores ratione tempore sit aliquid architecto eligendi pariatur ab soluta doloremque dicta aspernatur labore quibusdam dolore corrupti quod inventore. Maiores, repellat, consequuntur eius repellendus eos aliquid molestiae ea laborum ex quibusdam laudantium voluptates placeat consectetur quam aliquam!
+Online gifts can be made using the form on this page, or at 
+https://donorbox.org/beholders. You can make one-time or recurring gifts using credit cards, debit cards, or bank transfers. All transactions are processed through Donorbox (a Stripe partner) for the highest level of security and convenience. Once you make a gift, you can manage your gift at www.donorbox.org. 
 
-### Fugit, laboriosam
+### CHECK GIFTS
 
-Eum, quasi, est, vitae, ipsam nobis consectetur ea aspernatur ad eos voluptatibus fugiat nisi perferendis impedit. Quam, nulla, excepturi, voluptate minus illo tenetur sint ab in culpa cumque impedit quibusdam. Saepe, molestias quia voluptatem natus velit fugiat omnis rem eos sapiente quasi quaerat aspernatur quisquam deleniti accusantium laboriosam odio id?
+Check gifts can be made out to:
+
+Abide Ministries<br>
+323 Linwood Dr<br>
+Rochester, MI 48307
+
+Please add “Beholders” to the memo line of all check gifts. For any questions regarding giving, please email beholders@abide.community. 

@@ -3,28 +3,42 @@
 <main id="main">
 
 	<div class="container">
-
-		<div class="row topspace">
-
-			<!-- Sidebar -->
-			<aside class="col-sm-4 sidebar sidebar-right">
-
-				<div class="nav text-right nav-side">
-					<li class="active"><a href="#">{{ .Title }}</a></li>
-				</div>
-
-			</aside>
-			<!-- /Sidebar -->
-
-			<!-- Article main content -->
-			<article class="col-sm-8 maincontent">
-                {{ .Content }}
-			</article>
-			<!-- /Article -->
-
-
+	
+	<div class="section topspace subheader">
+<div class="row topspace">
+    <div class="col-md-12">
+        <p class="lead text-center text-muted">
+            <span class="ministry-name">{{ $.Param "ministryname" }}</span> {{ $.Param "overview" }}
+        </p>
+        <div class="ministry-button-row">
+        <a class="btn btn-action text-center ministry-button" href="#about-{{ $.Param "ministryname" }}">About</a>
+        <a class="btn btn-action text-center ministry-button" href="#donate-to-{{ $.Param "ministryname" }}">Donate</a>
+        <a class="btn btn-action text-center ministry-button" href="#contact-{{ $.Param "ministryname" }}">Contact</a>
 		</div>
-	</div>	<!-- /container -->
+    </div>
+    </div>
+</div> <!-- / section -->
+
+<div class="section topspace ministry-overview" {{ if isset .Params "sub_background" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "sub_background" }}') no-repeat center left rgb(0,0,44);" {{end}}>
+<div class="row">
+<div class="col-sm-4 maincontent" style="float:right;">
+<h2>About {{ $.Param "ministryname" }}</h2>
+{{$.Param "ministry_overview"}}</div>
+</div>
+</div><!-- / ministry-overview -->
+
+<div class="section topspace donate" id="donate-to-{{ $.Param "ministryname" }}">
+	<div class="col-md-6 donate-overview">
+		<h3>Donate to <span class="ministry-name">{{ $.Param "ministryname" }}</span></h3>
+		<p class="donate-information">{{.Content}}</p>
+	</div>
+	<div class="col-md-6 donate-form">
+	{{ $.Param "donate_form" }}
+	</div>
+</div>
+
+
+</div>	<!-- /container -->
 
 </main>
 

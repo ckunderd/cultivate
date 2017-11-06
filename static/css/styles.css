@@ -279,6 +279,8 @@ h6.lead {
   color: #7C7C7C;
   padding: 0 0 35px 0;
   height: 100vh;
+  border-bottom: 20px solid rgb(0,0,44);
+    box-shadow: 0px 3px 10px #333;
 }
 #head img.img-circle {
   display: block;
@@ -309,7 +311,7 @@ h6.lead {
   font-weight: normal;
 }
 #head .tagline a {
-  color: #CCC;
+  color: #DDD;
   text-shadow: 1px 1px 10px #333;}
 
 .home #head {
@@ -332,7 +334,7 @@ h6.lead {
   font-size: 16px;
   font-size: 1rem;
   margin: 5px 0 0;
-color: #CCC;
+color: #DDD;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-weight: 200;
@@ -603,6 +605,14 @@ p.version {
     font-size: 0.8rem;
     text-align: center;
 }
+
+/*Ministry Type*/
+.ministry-button-row {width: 100%; text-align: center;}
+.ministry-button {display: inline-block !important; width: 200px; margin-right: 20px !important;}
+.ministry p.lead {font-weight: 200;}
+.ministry-name {font-weight: 400; text-transform: uppercase;}
+.donate-overview h3 {text-transform: uppercase; font-weight: 200;}
+.donate-overview .ministry-name {font-weight: 400;}
 /*********************************************************************
 
 

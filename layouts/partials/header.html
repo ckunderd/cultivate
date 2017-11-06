@@ -26,11 +26,11 @@
     {{ end }}
 
 </head>
-<body class="home">
+<body{{ with .Type}} class="{{ . }} home" {{end}}>
 
-<header{{ with .Type}} class="{{ . }}" {{end}} {{ if isset .Params "header_image" }}style="background-image:url('{{ .Site.BaseURL }}{{ $.Param "header_image" }}'" {{end}}id="header">
+<header {{ if isset .Params "header_image" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "header_image" }}') no-repeat top left; background-size:cover;" {{end}}id="header">
 	{{ partial "menu.html" . }}
-	<div id="head" class="parallax" parallax-speed="2">
+	<div id="head" class="parallax {{ $.Param "ministryname"}}" parallax-speed="2">
 		<h1 id="logo" class="text-left">
 			<!--<img class="img-circle" src="{{ .Site.BaseURL }}images/guy.jpg" alt="">-->
 			<span class="title">{{ if isset .Params "ministryname"}}{{ $.Param "ministryname"}}{{ else }}{{ .Site.Params.Mname }}{{ end }}</span>
