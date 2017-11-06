@@ -36,6 +36,13 @@ body {
   opacity: .85;
   background: white;
 }
+.navbar.stick {
+    padding: 0px 0px;
+    height: 50px !important;
+    min-height: 50px;
+    background: rgba(0,0,0,0.4);
+    opacity: 1;
+}
 .navbar-collapse {
   -webkit-border-radius: 0;
   -webkit-background-clip: padding-box;
@@ -47,6 +54,7 @@ body {
   font-weight: 300;
   text-transform: uppercase;
 }
+.navbar-collapse.in {background: rgba(0,0,0,0.4);}
 .navbar-collapse .navbar-nav {
   float: none;
   margin: 0 auto;
@@ -100,14 +108,14 @@ padding: 20px 0;
   color: #000000;
 }
 .navbar-default .navbar-toggle {
-  border-color: #666666;
+  border-color: #FFF;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-  background-color: #ffffff;
+  background-color: transparent;
 }
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #333333;
+  background-color: #FFF;
 }
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
@@ -231,7 +239,6 @@ h6.lead {
     text-align: center;
     text-transform: uppercase;
     border-bottom: 1px solid #CCC;
-    width: 40%;
     margin: 0 auto;
     padding: 0 0 30px 0;
     letter-spacing: 1px;
@@ -239,9 +246,11 @@ h6.lead {
     font-weight: 100;
     color: #AAA;
     margin-bottom: 30px;
+    max-width: 767px;
+    min-width: 250px;
 }
 
-.subheader .btn-action {margin: 0 40%; width: 20%;}
+.subheader .btn-action {margin: 0 auto; max-width: 200px; display: block;}
 .text-msg {
   line-height: 1.7em;
   color: #b3b3b3;
@@ -265,7 +274,7 @@ h6.lead {
 
 **********************************************************************/
 #header {
-  background: #f4f4f4 url(../images/AbideWeb-360.jpg) center left;
+  background: #f4f4f4 url(../images/AbideWeb-360.jpg) center left no-repeat;
   background-size: cover;
   color: #7C7C7C;
   padding: 0 0 35px 0;
@@ -338,7 +347,7 @@ color: #CCC;
 **********************************************************************/
 .container {width: 100%; max-width: 100%; padding: 0;}
 .section {width: 100%; padding: 5%;}
-.row {max-width: 970px;}
+.row {max-width: 970px; margin: 0 auto;}
 /*********************************************************************
 
 
@@ -485,13 +494,13 @@ p.our-community {
   background: none;
 }
 .thumbnail .img {
-  display: block;
+  display: inline-block;
   width: 100%;
   overflow: hidden;
+  width: 210px;
   height: 210px;
   margin: 0 0 20px;
   position: relative;
-  padding-top: 50%;
   border-radius: 50%;
   box-shadow: 0px 1px 15px #111;
 }
@@ -574,6 +583,25 @@ p.our-community {
 .pagination > li.active > a:hover {
   color: #000000;
   background: none;
+}
+
+/* Verse*/
+p.quote-body {
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 200;
+    margin-top: 30px;
+}
+p.reference {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+p.version {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    text-align: center;
 }
 /*********************************************************************
 
@@ -854,9 +882,9 @@ footer.entry-meta .meta-in {
   margin: 0 0 20px;
 }
 #underfooter {
-  background: #191919;
+  background: none;
   padding: 15px 0;
-  color: #777;
+  color: #999;
   font-size: 12px;
 }
 #underfooter a {
@@ -865,8 +893,13 @@ footer.entry-meta .meta-in {
 #underfooter a:hover {
   color: #fff;
 }
-#underfooter p {
-  margin: 0;
+  #underfooter p {
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    font-size: 0.8rem;
+    font-weight: 200;
+    line-height: 2.5rem;
 }
 .follow-me-icons {
   font-size: 30px;
@@ -875,13 +908,48 @@ footer.entry-meta .meta-in {
   float: left;
   margin: 0 10px 0 0;
 }
+
+#underfooter .row {
+    border-top: 1px solid #CCC;
+    padding-top: 30px;
+}
+
+.footer-logo {
+    text-transform: uppercase !important;
+    font-size: 1.75rem !important;
+    letter-spacing: 3px !important;
+    font-weight: 200 !important;
+    color: #666;
+    border-right: 1px solid #CCC;
+    padding-right: 20px;
+    margin-right: 20px !important;
+    float: left;
+}
+	
 /* Max page width
 /////////////////////////////////////////////////////////////////////*/
 @media (min-width: 1200px) {
   .container {
-    max-width: 1080px;
+    max-width: 100%;
   }
 }
+
+@media (min-width: 500px) and (max-width: 767px) {
+	.thumbnail .img {width: 240px; height: 240px;}
+	#header {background-position-x: right; background-size: cover;}
+	
+}
+
+@media (max-width: 499px) {
+	#header {background-position-x: right; background-position: -560px;}
+}
+
+@media (max-width: 785px) {
+	p.footer-info {width: 100%;}
+	#underfooter p {line-height: 1.25rem; height: 50px;}
+	p.footer-logo {padding-top: 10px;}
+	}
+	
 /*********************************************************************
 
 

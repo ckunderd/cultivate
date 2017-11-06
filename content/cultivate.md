@@ -1,5 +1,5 @@
 +++
-menu = "main"
+menu = ""
 parent = "about"
 title = "Cultivate"
 type = "ministry"

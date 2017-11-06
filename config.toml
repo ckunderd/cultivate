@@ -1,6 +1,6 @@
 baseURL = "https://ckunderd.github.io/abide/"
 languageCode = "en-us"
-title = "Initio - Free, multipurpose html5 template by GetTemplate"
+title = "Abide Ministries"
 theme = "hugo-initio"
 publishDir = "docs"
 
@@ -21,6 +21,7 @@ publishDir = "docs"
     showRecentWorks = true
     showDownload = false
     showClients = false
+    showQuote = true
 
 [[menu.main]]
     name = "home"
@@ -30,7 +31,15 @@ publishDir = "docs"
     name = "blog"
     url = "/post/"
     weight = 5
-
+[[menu.main]]
+	name = "initiatives"
+	url = "/initiatives/"
+	weight = 7
+[[menu.main]]
+	name = "donate"
+	url = "/donate/"
+	weight = 10
+	
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
 

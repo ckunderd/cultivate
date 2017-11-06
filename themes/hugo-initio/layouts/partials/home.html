@@ -21,6 +21,10 @@
         {{ if .Site.Params.showClients }}
             {{ partial "clients.html" . }}
         {{ end }}
+        
+        {{ if .Site.Params.showQuote }}
+            {{ partial "verse.html" . }}
+        {{ end }}
 
 	</div>	<!-- /container -->
 
