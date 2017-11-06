@@ -3,59 +3,59 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://abide.community/about/</loc>
+    <loc>http://abide.community/about/</loc>
   </url>
   
   <url>
-    <loc>https://abide.community/cultivate/</loc>
+    <loc>http://abide.community/cultivate/</loc>
   </url>
   
   <url>
-    <loc>https://abide.community/post/vivamus-lacus-mauris/</loc>
+    <loc>http://abide.community/post/vivamus-lacus-mauris/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://abide.community/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://abide.community/service/service3/</loc>
-  </url>
-  
-  <url>
-    <loc>https://abide.community/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://abide.community/service/service1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://abide.community/post/</loc>
+    <loc>http://abide.community/</loc>
     <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://abide.community/service/service4/</loc>
+    <loc>http://abide.community/service/service3/</loc>
   </url>
   
   <url>
-    <loc>https://abide.community/service/</loc>
+    <loc>http://abide.community/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://abide.community/tags/</loc>
+    <loc>http://abide.community/service/service1/</loc>
+  </url>
+  
+  <url>
+    <loc>http://abide.community/post/</loc>
+    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://abide.community/service/service2/</loc>
+    <loc>http://abide.community/service/service4/</loc>
+  </url>
+  
+  <url>
+    <loc>http://abide.community/service/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://abide.community/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://abide.community/service/service2/</loc>
   </url>
   
 </urlset>

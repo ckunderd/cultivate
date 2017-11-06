@@ -1,4 +1,4 @@
-baseURL = "https://abide.community/"
+baseURL = "http://abide.community/"
 languageCode = "en-us"
 title = "Abide Ministries"
 theme = "hugo-initio"
