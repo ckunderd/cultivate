@@ -1,4 +1,4 @@
-baseURL = "https://ckunderd.github.io/abide/"
+baseURL = "https://abide.community"
 languageCode = "en-us"
 title = "Abide Ministries"
 theme = "hugo-initio"
