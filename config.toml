@@ -31,10 +31,6 @@ publishDir = "docs"
 	name = "initiatives"
 	url = "/#initiatives"
 	weight = 7
-[[menu.main]]
-	name = "donate"
-	url = "/donate/"
-	weight = 10
 	
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
