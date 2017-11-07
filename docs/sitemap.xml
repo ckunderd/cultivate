@@ -7,17 +7,27 @@
   </url>
   
   <url>
+    <loc>http://abide.community/70x7/</loc>
+  </url>
+  
+  <url>
+    <loc>http://abide.community/beholders/</loc>
+  </url>
+  
+  <url>
     <loc>http://abide.community/cultivate/</loc>
   </url>
   
   <url>
-    <loc>http://abide.community/post/vivamus-lacus-mauris/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
+    <loc>http://abide.community/patron/</loc>
+  </url>
+  
+  <url>
+    <loc>http://abide.community/restoring/</loc>
   </url>
   
   <url>
     <loc>http://abide.community/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -32,12 +42,6 @@
   
   <url>
     <loc>http://abide.community/service/service1/</loc>
-  </url>
-  
-  <url>
-    <loc>http://abide.community/post/</loc>
-    <lastmod>2013-06-17T12:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

@@ -19,21 +19,58 @@
     </div>
 </div> <!-- / section -->
 
-<div class="section topspace ministry-overview" {{ if isset .Params "sub_background" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "sub_background" }}') no-repeat center left rgb(0,0,44);" {{end}}>
+<div class="section topspace ministry-overview" id="about-{{ $.Param "ministryname" }}" {{ if isset .Params "sub_background" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "sub_background" }}') no-repeat top fixed rgb(0,0,44);" {{end}}>
 <div class="row">
-<div class="col-sm-4 maincontent" style="float:right;">
-<h2>About {{ $.Param "ministryname" }}</h2>
-{{$.Param "ministry_overview"}}</div>
+<div class="col-sm-6 maincontent" style="float:right;">
+<h2>About <span class="overview-name">{{ $.Param "ministryname" }}</span></h2>
+{{.Content}}</div>
 </div>
 </div><!-- / ministry-overview -->
 
 <div class="section topspace donate" id="donate-to-{{ $.Param "ministryname" }}">
 	<div class="col-md-12 donate-overview">
 		<h3>Donate to <span class="ministry-name">{{ $.Param "ministryname" }}</span></h3>
-		<p class="donate-information">{{.Content}}</p>
+		<div class="col-md-6">
+			<div class="donate-information">
+		    	<p>{{ $.Param "donate_in_order_to" }}, {{ $.Param "ministryname" }} receives donations as part of Abide Ministries, a 501(c)(3) organization located in Rochester, MI that provides financial and organizational oversight. All donations made to {{ $.Param "ministryname" }} are tax-deductible through Abide Ministries. Abide partners with <a href="https://donorbox.org/" target="_blank">Donorbox</a> to enable donors to make one time and recurring donations, while allowing them to manage their own giving in a safe, secure, and reliable environment. </p>
+
+
+<h3>ONLINE GIFTS</h3>
+
+<p>Online gifts can be made using the form on this page, or at 
+<a href="https://donorbox.org/{{ $.Param "donorbox_id" }}" target="_blank">https://donorbox.org/{{ $.Param "donorbox_id" }}</a>. You can make one-time or recurring gifts using credit cards, debit cards, or bank transfers. All transactions are processed through Donorbox (a <a href="https://stripe.com" target="blank">Stripe</a> partner) for the highest level of security and convenience. Once Youu make a gift, you can manage your gift at <a href="donorbox.org" target="_blank">www.donorbox.org.</a></p>
+
+<h3>CHECK GIFTS</h3>
+
+<p>Check gifts can be made out to:
+
+<p>Abide Ministries<br>
+323 Linwood Dr<br>
+Rochester, MI 48307</p>
+
+Please add “{{ $.Param "ministryname" }}” to the memo line of all check gifts. For any questions regarding giving, please email <a href="mailto:{{ $.Param "contact_email" }}">{{ $.Param "contact_email" }}.</a>
+</p>
+</div>
+		</div>
+		<div class="col-md-6">
+			<div class="donate-form">
+<iframe class="donorbox-form" width="100%" height="685px" src="https://donorbox.org/embed/{{ $.Param "donorbox_id" }}?hide_donation_meter=true" frameborder="0" style="max-width:700px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no">
+</iframe>
+		</div>
+		</div>
 	</div>
 </div>
 
+<div class="section topspace contact" id="contact-{{ $.Param "ministryname" }}">
+<div class="row">
+<h2>Have a question for <span class="overview-name">{{ $.Param "ministryname" }}</span>?</h2>
+<form method="POST" action="http://formspree.io/{{ $.Param "contact_email" }}">
+  <div class="col-md-6"><input type="input" name="name" placeholder="Your name">
+  <input type="email" name="email" placeholder="Your email"></div>
+  <div class="col-md-6"><textarea name="message" placeholder="Your message"></textarea> <button type="submit">Send</button></div>
+</form>
+</div>
+</div>
 
 </div>	<!-- /container -->
 
