@@ -6,8 +6,8 @@ publishDir = "docs"
 
 [params]
     sitename = "Abide"
-    Mname = "Mike & Robyn Carnill"
-    Mdescription = "Abide"
+    Mname = ""
+    Mdescription = ""
     email = "info@abide.community"
     phone = ""
     address = "323 Linwood, Rochester, MI 48307"

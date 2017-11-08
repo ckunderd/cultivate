@@ -281,7 +281,7 @@ h6.lead {
 
 **********************************************************************/
 #header {
-  background: #f4f4f4 url(../images/AbideWeb-360.jpg) center left no-repeat;
+  /*background: #f4f4f4 url(../images/AbideWeb-360.jpg) center left no-repeat;*/
   background-size: cover;
   color: #7C7C7C;
   padding: 0 0 35px 0;
@@ -289,6 +289,14 @@ h6.lead {
   border-bottom: 20px solid rgb(0,0,44);
     box-shadow: 0px 3px 10px #333;
 }
+[data-slides] {
+	background-image: url(../images/AbideWeb-360.jpg); /* Default image. */
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	transition: all 0.7s ease;s
+}
+
 #head img.img-circle {
   display: block;
   width: 140px;
@@ -460,7 +468,7 @@ img {
 }
 /* Section - Recent works */
 .recentworks {
-	background:url('../images/ministries_bg.jpg') no-repeat;
+	background:url('../images/ministries_bg.jpg') no-repeat top right;
 	color: white;
 	background-size:cover;
 }
