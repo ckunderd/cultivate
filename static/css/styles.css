@@ -627,7 +627,7 @@ p.version {
 
 /*Ministry Type*/
 .ministry-button-row {width: 100%; text-align: center;}
-.ministry-button {display: inline-block !important; width: 200px; margin-right: 20px !important;}
+.ministry-button {display: inline-block !important; width: 200px; margin-right: 20px !important; margin-bottom: 20px !important;}
 .ministry p.lead {font-weight: 200;}
 .ministry-name {font-weight: 400; text-transform: uppercase;}
 .donate-overview h3 {text-transform: uppercase; font-weight: 200;}
@@ -646,6 +646,7 @@ p.version {
 .ministry-overview {
     color: #CCC;
     font-weight: 200;
+    background-position-x: 30% !important;
 }
 .contact h2 {color: #666; font-size: 1.75rem; text-transform: uppercase; font-weight: 200; text-align: center; margin-bottom: 20px;}
 .overview-name {font-weight: 400;}
@@ -1016,12 +1017,55 @@ footer.entry-meta .meta-in {
 
 @media (min-width: 500px) and (max-width: 767px) {
 	.thumbnail .img {width: 240px; height: 240px;}
-	#header {background-position-x: right; background-size: cover;}
+	#header {height: 75vh;}
+	.home #head {position: absolute; bottom: 30%;}
+	.home #head .title {font-size: 3.5rem;}
+	.home #head .tagline {font-size: 1.5rem;}
+	/*Ministry*/
+	.ministry-overview {
+	 background-size: 200% !important;
+    background-position: top left !important;
+    background-position-y: -80px !important;
+    background-attachment: initial !important;
+    padding-top: 350px;
+
+    }
+    .contact input[type="email"], .contact input[type="input"], .contact textarea[name="message"] {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+}
+
+	.footer-logo {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+}
+}
 	
 }
 
 @media (max-width: 499px) {
-	#header {background-position-x: right; background-position: -560px;}
+	#header {height: 50vh;}
+	.home #head {position: absolute; bottom: 55%;}
+	.home #head .title {font-size: 3.0rem;}
+	.home #head .tagline {font-size: 1rem;}
+	/*Ministry*/
+	.ministry-overview {
+	background-size: 200% !important;
+    background-position: top left !important;
+    background-attachment: initial !important;
+    padding-top: 200px;
+    }
+    .contact input[type="email"], .contact input[type="input"], .contact textarea[name="message"] {
+    float: none;
+    width: 100%;
+}
+	.footer-logo {
+    padding-right: 0;
+    margin-right: 0;
+    border-right: none;
+}
 }
 
 @media (max-width: 785px) {
