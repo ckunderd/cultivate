@@ -31,6 +31,10 @@
   </url>
   
   <url>
+    <loc>https://abide.community/transplanters/</loc>
+  </url>
+  
+  <url>
     <loc>https://abide.community/</loc>
     <priority>0</priority>
   </url>
