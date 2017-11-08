@@ -28,7 +28,7 @@
 </head>
 <body{{ with .Type}} class="{{ . }} home" {{end}}>
 
-<header {{ if isset .Params "header_image" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "header_image" }}') no-repeat left; background-size:cover;" {{ else }} data-slides='["images/AbideWeb-246.jpg","images/AbideWeb-318.jpg","images/AbideWeb-177.jpg","images/AbideWeb-146.jpg","images/AbideWeb-360.jpg"]' {{end}}id="header">
+<header {{ if isset .Params "header_image" }} style="background:url('{{ .Site.BaseURL }}{{ $.Param "header_image" }}') no-repeat left; background-size:cover;" {{ else }} data-slides='["images/AbideWeb-246.jpg","images/AbideWeb-318.jpg","images/AbideWeb-177.jpg","images/AbideWeb-146.jpg","images/AbideWeb-360.jpg"]' {{end}}id="header">
 	{{ partial "menu.html" . }}
 	<div id="head" class="parallax {{ $.Param "ministryname"}}" parallax-speed="2">
 		<h1 id="logo" class="text-left">
