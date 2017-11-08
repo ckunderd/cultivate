@@ -67,7 +67,8 @@ Please add “{{ $.Param "ministryname" }}” to the memo line of all check gift
 <form method="POST" action="https://formspree.io/{{ $.Param "contact_email" }}">
   <div class="col-md-6"><input type="input" name="name" placeholder="Your name">
   <input type="email" name="email" placeholder="Your email"></div>
-  <div class="col-md-6"><textarea name="message" placeholder="Your message"></textarea> <button type="submit">Send</button></div>
+  <div class="col-md-6"><textarea name="message" placeholder="Your message"></textarea> <button type="submit">Send</button><input type="hidden" name="_next" value="{{ .Site.BaseURL }}/{{ $.Param "ministryname" }}" />
+</div>
 </form>
 </div>
 </div>
