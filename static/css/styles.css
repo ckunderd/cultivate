@@ -332,12 +332,12 @@ h6.lead {
 .home #head {
  position: absolute;
  bottom: 10%;
- left: 5%;
 }
 
-.home #head.right {
+.right {
 	right: 5%;
 }
+.left { left: 5%; }
 
 .tagline .btn-action {margin: 15px 0; border-color: #CCC;}
 .home #head .title {

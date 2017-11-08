@@ -64,7 +64,7 @@ Please add “{{ $.Param "ministryname" }}” to the memo line of all check gift
 <div class="section topspace contact" id="contact-{{ $.Param "ministryname" }}">
 <div class="row">
 <h2>Have a question for <span class="overview-name">{{ $.Param "ministryname" }}</span>?</h2>
-<form method="POST" action="http://formspree.io/{{ $.Param "contact_email" }}">
+<form method="POST" action="https://formspree.io/{{ $.Param "contact_email" }}">
   <div class="col-md-6"><input type="input" name="name" placeholder="Your name">
   <input type="email" name="email" placeholder="Your email"></div>
   <div class="col-md-6"><textarea name="message" placeholder="Your message"></textarea> <button type="submit">Send</button></div>

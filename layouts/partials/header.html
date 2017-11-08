@@ -28,9 +28,9 @@
 </head>
 <body{{ with .Type}} class="{{ . }} home" {{end}}>
 
-<header {{ if isset .Params "header_image" }} style="background:url('{{ .Site.BaseURL }}{{ $.Param "header_image" }}') no-repeat left; background-size:cover;" {{ else }} data-slides='["images/AbideWeb-246.jpg","images/AbideWeb-318.jpg","images/AbideWeb-177.jpg","images/AbideWeb-146.jpg","images/AbideWeb-360.jpg"]' {{end}}id="header">
+<header {{ if isset .Params "header_image" }} style="background:url('{{ .Site.BaseURL }}{{ $.Param "header_image" }}') no-repeat left {{ $.Param "bg_image_classes" }}; background-size:cover;" {{ else }} data-slides='["images/AbideWeb-246.jpg","images/AbideWeb-318.jpg","images/AbideWeb-177.jpg","images/AbideWeb-146.jpg","images/AbideWeb-360.jpg"]' {{end}}id="header">
 	{{ partial "menu.html" . }}
-	<div id="head" class="parallax {{ $.Param "ministryname"}}" parallax-speed="2">
+	<div id="head" class="parallax {{ $.Param "ministryname"}} {{ $.Param "ministryposition" }}" parallax-speed="2">
 		<h1 id="logo" class="text-left">
 			<!--<img class="img-circle" src="{{ .Site.BaseURL }}images/guy.jpg" alt="">-->
 			<span class="title">{{ if isset .Params "ministryname"}}{{ $.Param "ministryname"}}{{ else }}{{ .Site.Params.Mname }}{{ end }}</span>

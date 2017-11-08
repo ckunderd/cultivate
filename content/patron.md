@@ -10,6 +10,7 @@ sub_background = "images/patron_sub_background.jpg"
 ministryname = "Patron"
 donorbox_id = "patron"
 ministrydescription = "Bryon & Joie Rossi"
+ministryposition = "right"
 overview = "is a local organization that seeks to end the demand for domestic sex-trafficking in the U.S."
 donate_in_order_to = "In order to sustain their work of ending the demand for sex trafficking"
 +++

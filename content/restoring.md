@@ -10,6 +10,7 @@ sub_background = "images/restoring_sub_background.jpg"
 ministryname = "Restoring"
 donorbox_id = "restoring"
 ministrydescription = "Josh & Yvette Rock"
+ministryposition = "left"
 overview = "seeks to bring the vitality of Jesus into the neighborhoods, marriages, and families of Detroit."
 donate_in_order_to = "In order to sustain their work of bringing vitality to neighborhoods, marriages, and families"
 +++

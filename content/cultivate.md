@@ -10,6 +10,8 @@ sub_background = "images/cultivate_sub_background.jpg"
 ministryname = "Cultivate"
 donorbox_id = "cultivate"
 ministrydescription = "Cam & Lyndee Underdown"
+ministryposition = "left"
+bg_image_classes = "top"
 overview = "exists to develop kingdom workers in the Christlike character necessary to grow God's kingdom."
 donate_in_order_to = "In order to sustain their work of developing people, plans, and prayer support go grow God's Kingom"
 +++
