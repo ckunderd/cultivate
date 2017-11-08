@@ -1,5 +1,5 @@
-# Example Site for Hugo Initio Theme
+# Abide Ministries Website
 
-Example Site for Hugo Initio Theme
+This is the website for Abide Ministries, developed by Cam Underdown using Hugo.
 
-https://github.com/miguelsimoni/hugo-initio
+https://abide.community
