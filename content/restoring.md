@@ -11,6 +11,7 @@ ministryname = "Restoring"
 donorbox_id = "restoring"
 ministrydescription = "Josh & Yvette Rock"
 ministryposition = "left"
+mobile_background = "mobile background-right"
 overview = "seeks to bring the vitality of Jesus into the neighborhoods, marriages, and families of Detroit."
 donate_in_order_to = "In order to sustain their work of bringing vitality to neighborhoods, marriages, and families"
 +++

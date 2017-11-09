@@ -11,6 +11,7 @@ ministryname = "Beholders"
 donorbox_id = "beholders"
 ministrydescription = "Aaron & Adrianne Jackson"
 ministryposition = "left"
+mobile_background = "mobile background-right"
 overview = "works to train young people for missions and create opportunities for them to share their faith."
 donate_in_order_to = "In order to sustain their work of creating opportunities for people to share their faith and become ready for missions"
 +++

@@ -11,6 +11,7 @@ ministryname = "Abide"
 donorbox_id = "abide"
 ministrydescription = "Mike & Robyn Carnill"
 ministryposition = "left"
+mobile_background = "mobile background-right"
 overview = "seeks to strengthen families in Jesus."
 donate_in_order_to = "In order to sustain their work of strengthening families in Jesus"
 +++
