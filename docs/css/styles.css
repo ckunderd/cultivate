@@ -471,8 +471,8 @@ img {
   margin: 0 0 25px 0;
 }
 /* Section - Recent works */
-.recentworks {
-	background:url('../images/ministries_bg.jpg') no-repeat top right;
+.recentworks, .about-community {
+	background:url('../images/ministries_bg.jpg') no-repeat top right fixed;
 	color: white;
 	background-size:cover;
 }
@@ -514,6 +514,7 @@ p.our-community {
   color: #FFF;
   background: none;
 }
+.about-community .thumbnail {float:left;}
 .thumbnail .img {
   display: inline-block;
   width: 100%;
@@ -525,12 +526,18 @@ p.our-community {
   border-radius: 50%;
   box-shadow: 0px 1px 15px #111;
 }
+.about-community .thumbnail .img {width: 190px; height: 190px; margin-right: 20px;}
+.about-community h3 {
+    color: white;
+    font-weight: 200;
+}
 .thumbnail .title {
   text-transform: uppercase;
   margin: 0 2em;
   display: block;
   text-indent: 0;
 }
+.about-community .thumbnail .title {margin: 0 auto; margin-right: 20px;}
 .thumbnail .cover {
   position: absolute;
   display: block;
@@ -1015,7 +1022,12 @@ footer.entry-meta .meta-in {
   }
 }
 
+@media (min-width: 768px) and (max-width: 999px){
+	.about-community .thumbnail .img {width: 135px; height: 135px;}
+}
+
 @media (min-width: 500px) and (max-width: 767px) {
+	.about-community .thumbnail {float:none;}
 	.thumbnail .img {width: 240px; height: 240px;}
 	#header {height: 75vh;}
 	.home #head {position: absolute; bottom: 30%;}
@@ -1045,6 +1057,7 @@ footer.entry-meta .meta-in {
 }
 
 @media (max-width: 499px) {
+	.about-community .thumbnail {float:none;}
 	 .nav-logo {  font-size: 2rem;}
 	#header {height: 75vh;}
 	.mobile.background-right {background-position: right !important;}

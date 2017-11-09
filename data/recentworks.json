@@ -2,8 +2,8 @@
     {
         "id": 0,
         "name": "Beholders",
-        "image": "images/abide_ministries2.jpg",
-        "url": "beholders",
+        "image": "../images/abide_ministries2.jpg",
+        "url": "/beholders",
         "items": [
             {
                 "name": "",
@@ -22,8 +22,8 @@
     {
         "id": 1,
         "name": "70x7",
-        "image": "images/abide_ministries5.jpg",
-        "url": "70x7",
+        "image": "../images/abide_ministries5.jpg",
+        "url": "/70x7",
         "items": [
             {
                 "name": "",
@@ -38,8 +38,8 @@
     {
         "id": 2,
         "name": "Patron",
-        "image": "images/abide_ministries.jpg",
-        "url": "patron",
+        "image": "../images/abide_ministries.jpg",
+        "url": "/patron",
         "items": [
             {
                 "name": "",
@@ -54,8 +54,8 @@
     {
         "id": 3,
         "name": "Restoring",
-        "image": "images/abide_ministries3.jpg",
-        "url": "restoring",
+        "image": "../images/abide_ministries3.jpg",
+        "url": "/restoring",
         "items": [
             {
                 "name": "",
@@ -70,8 +70,8 @@
     {
         "id": 4,
         "name": "Cultivate",
-        "image": "images/abide_ministries6.jpg",
-        "url": "cultivate",
+        "image": "../images/abide_ministries6.jpg",
+        "url": "/cultivate",
         "items": [
             {
                 "name": "",
@@ -86,8 +86,8 @@
     {
         "id": 5,
         "name": "Abide",
-        "image": "images/abide_ministries4.jpg",
-        "url": "abide",
+        "image": "../images/abide_ministries4.jpg",
+        "url": "/abide",
         "items": [
             {
                 "name": "",
