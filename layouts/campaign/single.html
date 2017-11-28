@@ -1,0 +1,101 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+	
+	<div class="section topspace subheader" id="subheader">
+<div class="row topspace">
+    <div class="col-md-12">
+        <p class="lead text-center text-muted campaign_call_title">{{ $.Param "campaign_call_title" }}</p>
+        <div class="col-md-6">
+        <p>{{ $.Param "campaign_call_message" }}</p>
+        <div class="campaign-button-row">
+        <a class="btn text-center campaign-button green1 page-scroll" href="#about-{{ $.Param "campaignurl" }}">Learn More</a>
+        <a class="btn text-center campaign-button green2 page-scroll" href="#meet-{{ $.Param "campaignurl" }}">Meet Leaders</a>
+        <a class="btn text-center campaign-button green3 page-scroll" href="#donate-to-{{ $.Param "campaignurl" }}">Make a Gift</a>
+		</div><!--Button Row-->
+		</div><!--Column Row-->
+		<div class="col-md-6 campaign_staff">
+			<img src="{{ .Site.BaseURL }}{{ $.Param "campaign_call_photo" }}" alt="{{ $.Param "campaign_staff_name" }}" class="img-centered"/>
+			<h2 class="campaign_staff_name">{{ $.Param "campaign_staff_name" }}</h2>
+			<h6 class="campaign_staff_title">{{ $.Param "campaign_staff_title" }}</h6>
+		</div>
+    </div>
+    </div>
+</div> <!-- / section -->
+
+<div class="section ministry-overview" id="about-{{ $.Param "campaignurl" }}" {{ if isset .Params "overview_image" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "overview_image" }}') no-repeat top fixed rgb(122,156,73); background-size: cover;" {{end}}>
+<div class="row">
+<div class="col-sm-6 maincontent" style="float:right;">
+<h2>The <span class="overview-name">{{ $.Param "campaignname" }}</span></h2>
+{{.Content}}
+	<div class="campaign-button-row">
+        <a class="btn text-center campaign-button green2 page-scroll" href="#meet-{{ $.Param "campaignurl" }}">Meet Leaders</a>
+        <a class="btn text-center campaign-button green1 page-scroll" href="#donate-to-{{ $.Param "campaignurl" }}">Make a Gift</a>
+	</div>
+</div>
+</div>
+</div><!-- / ministry-overview -->
+
+<div class="section servant-leaders" id="meet-{{ $.Param "campaignurl" }}">
+	<h2>stories of <strong>servant leaders</strong></h2>
+{{ partial "portfolio.html" . }}
+</div>
+
+<div class="section donate" id="donate-to-{{ $.Param "campaignurl" }}">
+<hr style="width: 50%;" />
+	<div class="col-md-12 donate-overview">
+		<h2>make a gift to <strong>support servant leaders.</strong></h2>
+		<div class="col-md-6">
+			<div class="donate-information">
+		    	<p>In order to fund these opportunities, we are asking for your help. <strong>Cultivate is looking to add $20,000 to our Servant Leader Development Fund by the end of 2017.</strong> $8,000 of what is contributed will go to pay expenses from opportunities from 2017 (read more here), and $12,000 will be added to ensure that we can continue to develop kingdom workers in 2018 through both new and current initiatives.</p> 
+
+<p>Specifically, we are looking for one time donations in the following amounts: 2 donations of $5,000, 5 donations of $1,000, 5 donations of $500, and 10 donations of $250. Every donation, no matter the amount, helps us continue to develop kingdom workers by providing opportunities for them to serve others while being coached in meaningful ways.</p>
+		    	
+		    	<p>{{ $.Param "ministryname" }} receives donations as part of Abide Ministries, a 501(c)(3) organization located in Rochester, MI that provides financial and organizational oversight. All donations made to {{ $.Param "ministryname" }} are tax-deductible through Abide Ministries. Abide partners with <a href="https://donorbox.org/" target="_blank">Donorbox</a> to enable donors to make one time and recurring donations, while allowing them to manage their own giving in a safe, secure, and reliable environment. </p>
+
+
+<h3>online gifts</h3>
+
+<p>Online gifts can be made using the form on this page, or at 
+<a href="https://donorbox.org/{{ $.Param "donorbox_id" }}" target="_blank">https://donorbox.org/{{ $.Param "donorbox_id" }}</a>. You can make one-time or recurring gifts using credit cards, debit cards, or bank transfers. All transactions are processed through Donorbox (a <a href="https://stripe.com" target="blank">Stripe</a> partner) for the highest level of security and convenience. Once you make a gift, you can manage your gift at <a href="donorbox.org" target="_blank">www.donorbox.org.</a></p>
+
+<h3>check gifts</h3>
+
+<p>Check gifts can be made out to:
+
+<p>Abide Ministries<br>
+323 Linwood Dr<br>
+Rochester, MI 48307</p>
+
+Please add “{{ $.Param "ministryname" }}” to the memo line of all check gifts. For any questions regarding giving, please email <a href="mailto:{{ $.Param "contact_email" }}">{{ $.Param "contact_email" }}.</a>
+</p>
+</div>
+		</div>
+		<div class="col-md-6">
+			<div class="donate-form">
+<iframe class="donorbox-form" width="100%" height="1200px" src="https://donorbox.org/embed/{{ $.Param "donorbox_id" }}" frameborder="0" style="max-width:700px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no">
+</iframe>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="section topspace contact" id="contact-{{ $.Param "ministryname" }}">
+<div class="row">
+<h2>Have a question?</h2>
+<form method="POST" action="https://formspree.io/{{ $.Param "contact_email" }}">
+  <div class="col-md-6"><input type="input" name="name" placeholder="Your name">
+  <input type="email" name="email" placeholder="Your email"></div>
+  <div class="col-md-6"><textarea name="message" placeholder="Your message"></textarea> <button type="submit">Send</button><input type="hidden" name="_next" value="{{ .Site.BaseURL }}{{ $.Param "donorbox_id" }}" />
+</div>
+</form>
+</div>
+</div>
+
+</div>	<!-- /container -->
+{{ partial "modals.html" . }}
+
+</main>
+{{ partial "footer.html" . }}

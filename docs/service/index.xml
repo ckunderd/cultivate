@@ -1,49 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Services on Abide Ministries</title>
-    <link>https://abide.community/service/</link>
-    <description>Recent content in Services on Abide Ministries</description>
+    <title>Services on Cultivate</title>
+    <link>https://cultivateoakland.org/service/</link>
+    <description>Recent content in Services on Cultivate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://abide.community/service/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cultivateoakland.org/service/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Application development</title>
-      <link>https://abide.community/service/service3/</link>
+      <title>People</title>
+      <link>https://cultivateoakland.org/service/service1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/service/service3/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
+      <guid>https://cultivateoakland.org/service/service1/</guid>
+      <description>We believe that God works through individuals and teams to accomplish his purposes in the world - who we call kingdom workers. These people need well-established Christlike character to effectively love the people who they are called to love by God and advance his Kingdom in their lives. Through prayer, education, mentoring, and hands-on training, we at Cultivate develop people to grow God’s Kingdom.</description>
     </item>
     
     <item>
-      <title>Custom website design</title>
-      <link>https://abide.community/service/service1/</link>
+      <title>Plans</title>
+      <link>https://cultivateoakland.org/service/service2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/service/service1/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
+      <guid>https://cultivateoakland.org/service/service2/</guid>
+      <description>We believe our God is a God of specifics. He has a plan in mind for every person, creating everyone with particular work to do. In addition, God has specific ways He wants things done – there are essential qualities of justice, kindness, and excellence that go into every one of his plans. When someone listens for and clearly discerns the specific plan God gives, God’s Kingdom grows.</description>
     </item>
     
     <item>
-      <title>SEO &amp; SEM services</title>
-      <link>https://abide.community/service/service4/</link>
+      <title>Prayer</title>
+      <link>https://cultivateoakland.org/service/service3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/service/service4/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
-    </item>
-    
-    <item>
-      <title>Wordpress integration</title>
-      <link>https://abide.community/service/service2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/service/service2/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
+      <guid>https://cultivateoakland.org/service/service3/</guid>
+      <description>Prayer often is the critical element of success in growing God’s Kingdom. No matter how gifted a person or team is, no matter how solid a plan is, success and failure rests on God’s favor. Our hope is to equip people and teams with initial groups who can petition God for guidance and success in their plans, as well as spiritually “cover” each individual who is working to grow God’s Kingdom.</description>
     </item>
     
   </channel>

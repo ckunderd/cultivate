@@ -1,128 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Abide Ministries</title>
-    <link>https://abide.community/</link>
-    <description>Recent content on Abide Ministries</description>
+    <title>Cultivate</title>
+    <link>https://cultivateoakland.org/</link>
+    <description>Recent content on Cultivate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
-	<atom:link href="https://abide.community/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://cultivateoakland.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>About</title>
-      <link>https://abide.community/about/</link>
+      <link>https://cultivateoakland.org/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/about/</guid>
+      <guid>https://cultivateoakland.org/about/</guid>
       <description>WHAT IT MEANS TO ABIDE We are a community amongst and within other communities. We go about our daily lives with the intent of being faithful to God and encouraging others to do the same.
 By community, we mean families and individuals located throughout the world connected by the Holy Spirit and like mindedness who share in the friendship and brotherhood of Jesus Christ. We do not necessarily attend the same church or live in the same city yet we share the same Lord.</description>
     </item>
     
     <item>
-      <title>70x7</title>
-      <link>https://abide.community/70x7/</link>
+      <title>Cultivate Servant Leader Development Fund</title>
+      <link>https://cultivateoakland.org/sldf/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/70x7/</guid>
-      <description>Over several years, Donna McCauley has developed friendships with men and women on the streets of Detroit and families who need encouragement in their faith. Donna, along with her 70x7 team of friends who have a long term commitment to encouraging others, spend time with these individuals and families on a weekly basis. Encouragement is given in the form of friendship, dignity, bible study, prayer and the meeting of a few basic needs, all with the view of helping individuals and families navigate away from at-risk activities and toward Jesus.</description>
+      <guid>https://cultivateoakland.org/sldf/</guid>
+      <description>Cultivate’s mission is to develop kingdom workers, and we find the best way to do this is to help give young men and women opportunities where they can serve others in hands-on, practical ways while being coached in meaningful ways by loving leaders. For example, a senior engineering student wants to lead a team which deliberately focuses on students who would never come to church or a campus ministry. He wants to run the Alpha course because he knows it has structure and proven success at welcoming people who wouldn’t normally come.</description>
     </item>
     
     <item>
-      <title>Abide</title>
-      <link>https://abide.community/abide/</link>
+      <title>People</title>
+      <link>https://cultivateoakland.org/service/service1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/abide/</guid>
-      <description>For over 20 years, Mike and Robyn Carnill have committed their lives to strengthening the relationships of others with Jesus, which is the basis of Abide. Whether it happens through one-on-one discipleship, prayer, solitude retreats, deep friendships, or some other way, Mike and Robyn desire to see anyone who is willing to listen to Jesus come to live more fully in him.
-Throughout its history, Abide has changed and grown, reminiscent of the vine growing from the branch that Jesus desires our lives to be.</description>
+      <guid>https://cultivateoakland.org/service/service1/</guid>
+      <description>We believe that God works through individuals and teams to accomplish his purposes in the world - who we call kingdom workers. These people need well-established Christlike character to effectively love the people who they are called to love by God and advance his Kingdom in their lives. Through prayer, education, mentoring, and hands-on training, we at Cultivate develop people to grow God’s Kingdom.</description>
     </item>
     
     <item>
-      <title>Beholders</title>
-      <link>https://abide.community/beholders/</link>
+      <title>Plans</title>
+      <link>https://cultivateoakland.org/service/service2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/beholders/</guid>
-      <description>Since 2013 Beholders has been training believers on how to cultivate a life that attracts the presence of God and to walk in a lifestyle of Spirit-led evangelism. Led by Aaron and Adrianne Jackson, Beholders believes to grow as a messenger one must go out and share the message. It’s in the mission field that people learn to partner with the Holy Spirit and get set free from fear.
-Beholders trains by creating worship opportunities where believers can come behold the Father’s heart, because they believe when one beholds something, one becomes like it.</description>
+      <guid>https://cultivateoakland.org/service/service2/</guid>
+      <description>We believe our God is a God of specifics. He has a plan in mind for every person, creating everyone with particular work to do. In addition, God has specific ways He wants things done – there are essential qualities of justice, kindness, and excellence that go into every one of his plans. When someone listens for and clearly discerns the specific plan God gives, God’s Kingdom grows.</description>
     </item>
     
     <item>
-      <title>Cultivate</title>
-      <link>https://abide.community/cultivate/</link>
+      <title>Prayer</title>
+      <link>https://cultivateoakland.org/service/service3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://abide.community/cultivate/</guid>
-      <description>Cam Underdown is a pastor and director of Cultivate, a ministry devoted to developing people, plans, and prayer support to grow God&amp;rsquo;s Kingdom.
-Cultivate looks for people who are desiring to move the kingdom of God forward, and serve them in any way possible. Maybe it’s starting a brand new endeavor with a visionary college student to meet an injustice. Maybe it’s partnering with an existing ministry to build a new team that will help that ministry meet its next God-given goal.</description>
-    </item>
-    
-    <item>
-      <title>Patron</title>
-      <link>https://abide.community/patron/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/patron/</guid>
-      <description>Working with national anti-sex trafficking organizations, and under the auspices of both federal and local law enforcement, Patron works to simultaneously end the demand of domestic sex-trafficking via tangible, direct, and effective action for men in local communities while creatively serving the local eco-system of various anti-sex trafficking organizations in order to help prolong their combined and comprehensive sustainability.
-A definition of “patron” is simply, “a person who buys goods or uses the services of an establishment.</description>
-    </item>
-    
-    <item>
-      <title>Restoring</title>
-      <link>https://abide.community/restoring/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/restoring/</guid>
-      <description>Joshua and Yvette Rock have been living in Detroit for the past 16 years, building friendships and raising their family, hoping to witness and encourage God’s restoration among the people and in the neighborhoods of Detroit. Restoring has developed out of this desire, as a way to support and encourage friends in the process of believing, following, submitting, and abiding in Jesus. As Joshua and Yvette share life with their friends in the city, they work to strengthen marriages and families, meet with men and women, and serve their neighbors in practical ways.</description>
-    </item>
-    
-    <item>
-      <title>Transplanters</title>
-      <link>https://abide.community/transplanters/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/transplanters/</guid>
-      <description>Transplanters enables synergy between foundations and pioneering non-profit leaders. These leaders are pioneers because they sacrifice everything in pursuit of their innovative ideas. Transplanters serves these leaders by performing development services including grant writing and consulting on organizational structure, systems and priorities.
-In addition, Transplanters serves foundations by providing exceptional project management and reporting, as well as the opportunity to align with well-managed, highly-influential non-profits.
-Dave and Kris McKenney developed the skills that shape Transplanters while performing award-winning service for Habitat for Humanity affiliates around the country in various volunteer, board, and staff positions.</description>
-    </item>
-    
-    <item>
-      <title>Application development</title>
-      <link>https://abide.community/service/service3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/service/service3/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
-    </item>
-    
-    <item>
-      <title>Custom website design</title>
-      <link>https://abide.community/service/service1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/service/service1/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
-    </item>
-    
-    <item>
-      <title>SEO &amp; SEM services</title>
-      <link>https://abide.community/service/service4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/service/service4/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
-    </item>
-    
-    <item>
-      <title>Wordpress integration</title>
-      <link>https://abide.community/service/service2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://abide.community/service/service2/</guid>
-      <description>I don&amp;rsquo;t think they tried to market it to the billionaire, spelunking, base-jumping crowd. i did the same thing to gandhi, he didn&amp;rsquo;t eat for three weeks. i once heard a wise man say there are no perfect men.</description>
+      <guid>https://cultivateoakland.org/service/service3/</guid>
+      <description>Prayer often is the critical element of success in growing God’s Kingdom. No matter how gifted a person or team is, no matter how solid a plan is, success and failure rests on God’s favor. Our hope is to equip people and teams with initial groups who can petition God for guidance and success in their plans, as well as spiritually “cover” each individual who is working to grow God’s Kingdom.</description>
     </item>
     
   </channel>

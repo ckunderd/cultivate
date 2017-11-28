@@ -1,6 +1,6 @@
 <nav class="navbar navbar-default navbar-sticky">
     <div class="container-fluid">
-<div class="nav-logo"><a href="{{ .Site.BaseURL }}">{{ .Site.Params.sitename }}</a></div>
+<div class="nav-logo"><a href="{{ .Site.BaseURL }}"><img src="{{ .Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Params.sitename }}" /></a></div>
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="true">
                 <span class="sr-only">Toggle navigation</span>
@@ -15,7 +15,7 @@
             <ul class="nav navbar-nav">
                 {{ range .Site.Menus.main }}
                 <li>
-                    <a href="{{ .URL }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}" class="page-scroll">{{ .Name }}</a>
                 </li>
                 {{end}}
                 <!--

@@ -1,42 +1,57 @@
-baseURL = "https://abide.community/"
+baseURL = "https://cultivateoakland.org"
 languageCode = "en-us"
-title = "Abide Ministries"
+title = "Cultivate"
 theme = "hugo-initio"
 publishDir = "docs"
 
 [params]
-    sitename = "Abide"
-    Mname = ""
+    sitename = "Cultivate"
+    logo = "images/logo.png"
+    footer_logo = "images/footer_logo.jpg"
+    bg_image = "images/cultivate_bg1.jpg"
+    head_message_light = "Help us develop"
+    head_message_bold = "kingdom workers."
     Mdescription = ""
-    email = "info@abide.community"
+    email = "info@cultivateoakland.org"
     phone = ""
-    address = "323 Linwood, Rochester, MI 48307"
+    address = "PO Box 210997, Auburn Hills MI 48321"
     year = 2017
     background = ""
     favicon = "images/gt_favicon.png"
     DateForm = "January 2, 2006"
 
     showSubheader = true
-    showServices = false
+    showServices = true
     showRecentWorks = true
     showDownload = false
     showClients = false
-    showQuote = true
+    showQuote = false
+    showAbout = true
 
 [[menu.main]]
     name = "home"
     url = "/"
     weight = 1
 [[menu.main]]
-	name = "initiatives"
-	identifier = "initiatives"
-	url = "/#initiatives"
-	weight = 7
+	name = "Strategy"
+	url = "/#featured"
+	weight = 5
 [[menu.main]]
-	name = "cultivate"
-	parent = "initiatives"
-	url = "#"
+	name = "Partners"
+	url = "/#partners"
 	weight = 10
+[[menu.main]]
+	name = "Story"
+	url = "/#story"
+	weight = 12
+[[menu.main]]
+	name = "Donate"
+	url = "https://donorbox.org/cultivate"
+	weight = 15
+[[menu.main]]
+	name = "Giving Tuesday"
+	url = "/sldf"
+	weight = 20
 	
 [params.disqus]
     site = "hugo-initio-site.disqus.com"
@@ -99,8 +114,60 @@ publishDir = "docs"
     network = ""
 [[params.social]]
 	title = "email"
-	url = "mailto:some.email@somewhere.com"
+	url = "mailto:info@cultivateoakland.org"
     icon = "fa-envelope"
     footer = false
     sharethis = true
     network = "email"
+    
+  # Portfolio section
+  [params.portfolio]
+    enable = true
+    # All projects defined in their own files. You can find example projects
+    # at 'exampleSite/data/projects'. Copy the 'projects' folder into the 'data' directory
+    # at the root of this Hugo site.
+    # For more informtion take a look at the README.
+    title = ""
+    subtitle = ""
+
+    [params.portfolio.modal]
+      client = "Client"
+      date = "Date"
+      category = "Category"
+      buttonText = "Close"
+      
+# About section
+  [params.about]
+    enable = true
+    title = "Our story"
+    subtitle = ""
+    endpoint = "Want to be <br>part of the story?"
+
+    # The events will be listed from the top to the bottom.
+    # All images are stored under 'static/img/about'.
+    # Replace them with your own.
+    [[params.about.events]]
+      img = "1.jpg"
+      date = "2012-2013"
+      title = "Our Beginnings"
+      description = "In 2013, Cam Underdown left his work at Kensington Church in north Oakland County, Michigan to embark on a journey of church planting at Oakland University. In prayer, God gave Cam three specifics to start: gather and strengthen believers, serve existing campus organizations, and not recruit team members, but instead let them come to him. A dozen people joined the initial team without Cam ever recruiting them, instead hearing about the endeavor through dreams, connections, and friends."
+
+    [[params.about.events]]
+      img = "2.jpg"
+      date = "2014-2015"
+      title = "Becoming Cultivate"
+      description = "After two years of starting small groups, teaching classes, and strategizing about how to share the love of Jesus with the students of Oakland, it was clear that a traditional church plant was not the best means of developing kingdom workers at Oakland. In June 2015, the initiative was named Cultivate, and a process was put in place to begin developing kingdom workers in Christlike character at Oakland University that included mentoring, listening prayer, and leadership development."
+
+    [[params.about.events]]
+      img = "3.jpg"
+      date = "2015-2017"
+      title = "Cultivating the Campus"
+      description = "In 2015-2016, leaders of various campus ministries and organizations joined the Cultivate process. Cultivate was able to assist in developing Christlike character in leaders of SpringHill Camps, Fellowship of Christian Athletes, Freedom Fighters 6.12 (an anti-trafficking organization), YoungLife, Intervarsity Christian Fellowship, Collective at Woodside, and 1829 at Kensington. Cultivate also assisted in the establishment of International Oasis, a nonprofit organization that provides support for international students in order to inspire and equip them to meet the needs of the global poor."
+
+    [[params.about.events]]
+      img = "4.jpg"
+      date = "2017"
+      title = "Beyond the Campus"
+      description = "As the kingdom workers that Cultivate has helped to develop move beyond the campus, Cultivate continues to branch out as well. Cultivate continues to work to lend support to the kingdom workers who we have helped to develop in their business and ministry endeavors, and Cultivate offers its services to groups beyond the campus. For example, in 2017 Cultivate has assisted in the establishment and development of SLAM, a movement based around local artists to fight and end prejudice in metro Detroit."
+
+      

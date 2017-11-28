@@ -37,6 +37,21 @@ jQuery(document).ready(function($) {
 
 });
 
+// Smooth scrolling via animate()
+$(document).ready(function(){
+  $("a").on('click', function(event) {
+    if (this.hash && window.location.pathname == "/") {
+      event.preventDefault();
+      var hash = this.hash;
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+        window.location.hash = hash;
+      });
+    }
+  });
+});
+
 /*! slides | https://gist.github.com/mhulse/66bcbb7099bb4beae530 
 (function($) {
 	
