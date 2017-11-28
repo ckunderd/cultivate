@@ -1,4 +1,4 @@
-baseURL = "https://cultivateoakland.org"
+baseURL = "https://cultivateoakland.org/"
 languageCode = "en-us"
 title = "Cultivate"
 theme = "hugo-initio"
