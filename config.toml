@@ -17,7 +17,7 @@ publishDir = "docs"
     address = "PO Box 210997, Auburn Hills MI 48321"
     year = 2017
     background = ""
-    favicon = "images/gt_favicon.png"
+    favicon = "images/favicon.png"
     DateForm = "January 2, 2006"
 
     showSubheader = true
