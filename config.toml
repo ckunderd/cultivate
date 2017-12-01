@@ -49,8 +49,8 @@ publishDir = "docs"
 	url = "https://donorbox.org/cultivate"
 	weight = 15
 [[menu.main]]
-	name = "Giving Tuesday"
-	url = "/sldf"
+	name = "Kingdom Worker Fund"
+	url = "/kwdf"
 	weight = 20
 	
 [params.disqus]

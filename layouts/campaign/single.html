@@ -28,7 +28,7 @@
 <div class="section ministry-overview" id="about-{{ $.Param "campaignurl" }}" {{ if isset .Params "overview_image" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "overview_image" }}') no-repeat top fixed rgb(122,156,73); background-size: cover;" {{end}}>
 <div class="row">
 <div class="col-sm-6 maincontent" style="float:right;">
-<h2>The <span class="overview-name">{{ $.Param "campaignname" }}</span></h2>
+<h2>The <span class="overview-name">{{ $.Param "ministryname" }} {{ $.Param "campaignname" }}</span></h2>
 {{.Content}}
 	<div class="campaign-button-row">
         <a class="btn text-center campaign-button green2 page-scroll" href="#meet-{{ $.Param "campaignurl" }}">Meet Leaders</a>
@@ -39,17 +39,17 @@
 </div><!-- / ministry-overview -->
 
 <div class="section servant-leaders" id="meet-{{ $.Param "campaignurl" }}">
-	<h2>stories of <strong>servant leaders</strong></h2>
+	<h2>stories of <strong>kingdom workers.</strong></h2>
 {{ partial "portfolio.html" . }}
 </div>
 
 <div class="section donate" id="donate-to-{{ $.Param "campaignurl" }}">
 <hr style="width: 50%;" />
 	<div class="col-md-12 donate-overview">
-		<h2>make a gift to <strong>support servant leaders.</strong></h2>
+		<h2>make a gift to <strong>support kingdom workers.</strong></h2>
 		<div class="col-md-6">
 			<div class="donate-information">
-		    	<p>In order to fund these opportunities, we are asking for your help. <strong>Cultivate is looking to add $20,000 to our Servant Leader Development Fund by the end of 2017.</strong> $8,000 of what is contributed will go to pay expenses from opportunities from 2017 (read more here), and $12,000 will be added to ensure that we can continue to develop kingdom workers in 2018 through both new and current initiatives.</p> 
+		    	<p>In order to fund these opportunities, we are asking for your help. <strong>{{ $.Param "ministryname" }} is looking to add $20,000 to our {{ $.Param "campaignname" }} by the end of 2017.</strong> $8,000 of what is contributed will go to pay expenses from opportunities from 2017 (read more here), and $12,000 will be added to ensure that we can continue to develop kingdom workers in 2018 through both new and current initiatives.</p> 
 
 <p>Specifically, we are looking for one time donations in the following amounts: 2 donations of $5,000, 5 donations of $1,000, 5 donations of $500, and 10 donations of $250. Every donation, no matter the amount, helps us continue to develop kingdom workers by providing opportunities for them to serve others while being coached in meaningful ways.</p>
 		    	
