@@ -1089,14 +1089,15 @@ footer.entry-meta .meta-in {
 
 @media (min-width: 768px) and (max-width: 999px){
 	.about-community .thumbnail .img {width: 135px; height: 135px;}
+		.home #head .title {font-size: 3rem;}
 }
 
 @media (min-width: 500px) and (max-width: 767px) {
 	.about-community .thumbnail {float:none;}
 	.thumbnail .img {width: 240px; height: 240px;}
 	#header {height: 75vh;}
-	.home #head {position: absolute; bottom: 30%;}
-	.home #head .title {font-size: 3.5rem;}
+	.home #head {position: absolute; bottom: 30%; padding-top: 0;}
+	.home #head .title {font-size: 3rem;}
 	.home #head .tagline {font-size: 1.5rem;}
 	/*Ministry*/
 	/*.ministry-overview {
@@ -1118,6 +1119,9 @@ footer.entry-meta .meta-in {
     margin-right: 0;
     border-right: none;
 }
+.navbar-collapse .navbar-nav > li > a {
+  padding: 0px 10px;
+}
 	
 }
 
@@ -1126,7 +1130,7 @@ footer.entry-meta .meta-in {
 	 .nav-logo {  font-size: 2rem;}
 	#header {height: 75vh;}
 	.mobile.background-right {background-position: right !important;}
-	.home #head {position: absolute; bottom: 40%;}
+	.home #head {position: absolute; bottom: 30%; padding-top: 0;}
 	.home #head .title {font-size: 2.5rem;}
 	.home #head .tagline {font-size: 1rem;}
 	/*Ministry*/
@@ -1150,6 +1154,10 @@ footer.entry-meta .meta-in {
 .campaign-button {width: 100% !important;}
 .portfolio-hover-content .btn-primary { width: 100%;}
 .nav-logo img {max-width: 180px;}
+.navbar-collapse .navbar-nav > li > a {
+  padding: 0px 10px;
+}
+
 }
 
 @media (max-width: 785px) {
