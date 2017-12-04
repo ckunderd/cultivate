@@ -45,8 +45,10 @@
 
 <div class="section donate" id="donate-to-{{ $.Param "campaignurl" }}">
 <hr style="width: 50%;" />
+	<div class="row">
 	<div class="col-md-12 donate-overview">
 		<h2>make a gift to <strong>support kingdom workers.</strong></h2>
+		</div>
 		<div class="col-md-6">
 			<div class="donate-information">
 		    	<p>In order to fund these opportunities, we are asking for your help. <strong>{{ $.Param "ministryname" }} is looking to add $20,000 to our {{ $.Param "campaignname" }} by the end of 2017.</strong> $8,000 of what is contributed will go to pay expenses from opportunities from 2017 (read more here), and $12,000 will be added to ensure that we can continue to develop kingdom workers in 2018 through both new and current initiatives.</p> 
@@ -72,7 +74,7 @@ Rochester, MI 48307</p>
 Please add “{{ $.Param "ministryname" }}” to the memo line of all check gifts. For any questions regarding giving, please email <a href="mailto:{{ $.Param "contact_email" }}">{{ $.Param "contact_email" }}.</a>
 </p>
 </div>
-		</div>
+		</div><!--col-md-6-->
 		<div class="col-md-6">
 			<div class="donate-form">
 <iframe class="donorbox-form" width="100%" height="1200px" src="https://donorbox.org/embed/{{ $.Param "donorbox_id" }}" frameborder="0" style="max-width:700px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no">
