@@ -1361,6 +1361,10 @@ h6.campaign_staff_title {
     opacity: 0;
 }
 
+@media (min-width: 768px) {
+	.portfolio-item { min-height: 700px;}
+}
+
 .img-centered {
     margin: 0 auto;
 }
