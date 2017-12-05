@@ -11,6 +11,8 @@ publishDir = "docs"
     bg_image = "images/cultivate_bg1.jpg"
     head_message_light = "Help us develop"
     head_message_bold = "kingdom workers."
+    stories_message_light = "Stories of"
+    stories_message_bold = "kingdom workers."
     Mdescription = ""
     email = "info@cultivateoakland.org"
     phone = ""
@@ -29,10 +31,6 @@ publishDir = "docs"
     showAbout = true
 
 [[menu.main]]
-    name = "home"
-    url = "/"
-    weight = 1
-[[menu.main]]
 	name = "about"
 	url = "/about"
 	identifier = "about"
@@ -48,9 +46,28 @@ publishDir = "docs"
 	parent = "about"
 	weight = 5
 [[menu.main]]
+	name = "team"
+	url = "../about/index.html#team"
+	parent = "about"
+	weight = 10
+[[menu.main]]
+	name = "history"
+	url = "../about/index.html#history"
+	parent = "about"
+	weight = 15
+[[menu.main]]
+	name = "oversight"
+	url = "../about/index.html#oversight"
+	parent = "about"
+	weight = 20
+[[menu.main]]
 	name = "Strategy"
 	url = "/#featured"
 	weight = 5
+[[menu.main]]
+	name = "Stories"
+	url = "/stories"
+	weight = 7
 [[menu.main]]
 	name = "Partners"
 	url = "/#partners"

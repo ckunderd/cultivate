@@ -1,0 +1,41 @@
+{{ partial "stories-header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+		<div class="row topspace">
+			<div class="col-md-12">
+
+                {{ range .Paginator.Pages }}
+				<article class="post col-md-12">
+				<div class="col-md-4"><a href="{{ .Permalink }}" rel="bookmark"><img class="img-responsive list" src="{{ .Site.BaseURL }}{{ .Description }}" /></a></div>
+					<div class="col-md-8">
+					<header class="entry-header">
+						<div class="entry-meta">
+							<span class="posted-on"><time class="entry-date published" date="{{ .Date }}">{{ dateFormat .Site.Params.DateForm .Date }}</time></span>
+						</div>
+						<h1 class="entry-title"><a href="{{ .Permalink }}" rel="bookmark">{{ .Title }}</a></h1>
+					</header>
+					<div class="entry-content">
+						{{ .Summary }}
+					</div>
+					<a href="{{ .Permalink }}" rel="bookmark"><button type="button" class="btn btn-primary">Read More</button></a>
+					</div>
+				</article>
+                {{ end }}
+
+			</div>
+		</div>
+
+		<center class="">
+			<ul class="pagination">
+                {{ template "_internal/pagination.html" . }}
+			</ul>
+		</center>
+
+
+	</div>	<!-- /container -->
+
+</main>
+
+{{ partial "footer.html" . }}
