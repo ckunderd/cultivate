@@ -29,6 +29,7 @@ publishDir = "docs"
     showClients = false
     showQuote = false
     showAbout = true
+    Paginate = 10
 
 [[menu.main]]
 	name = "about"
@@ -74,7 +75,7 @@ publishDir = "docs"
 	weight = 10
 [[menu.main]]
 	name = "Donate"
-	url = "https://donorbox.org/cultivate"
+	url = "/donate"
 	identifier = "donate"
 	weight = 4
 [[menu.main]]
@@ -82,6 +83,11 @@ publishDir = "docs"
 	url = "/donate/cam"
 	parent = "donate"
 	weight = "5"
+[[menu.main]]
+	name = "David-Chad Svenson"
+	url = "/donate/dc"
+	parent = "donate"
+	weight = "10"
 [[menu.main]]
 	name = "Kingdom Worker Fund"
 	url = "/donate/kwdf"

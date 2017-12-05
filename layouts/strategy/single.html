@@ -1,0 +1,87 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+	
+	<div class="section topspace about-mission" id="subheader">
+
+	</div> <!-- / section -->
+	
+	<div class="section topspace bg-fixed-inset about-overview" id="overview" style="background: url('{{ .Site.BaseURL}}{{ $.Param "overview_background" }}')">
+		<div class="row">
+			<div class="col-md-6 maincontent" style="float:right;">
+                <h2>{{ $.Param "overview_title" | markdownify }}</h2>
+                <p>{{ $.Param "overview_text" | markdownify }}</p>
+			</div>
+		</div>	
+	</div><!-- / section -->
+
+
+
+<div class="section topspace about-team" id="team">
+	<div class="row">
+		<div class="col-md-12"><h6 class="lead">{{ $.Param "our_team_title" }}</h6></div>
+		      {{ range .Site.Data.about_team }}
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a href="#about_teamModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
+            {{ $url := printf "img/about_team/%s" .preview }}
+            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
+          </a>
+          <div class="portfolio-caption">
+            <h4 class="text-center" style="margin-top:20px;">{{ .title | markdownify }}</h4>
+            <p class="text-muted text-center">{{ .subtitle | markdownify }}</p>
+          </div>
+          <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <a href="#about_teamModal{{ .modalID }}" data-toggle="modal"><button type="button" class="btn btn-primary" style="margin-bottom: 30px;">Read More</button></a>
+              </div>
+            </div>
+        </div>
+      {{ end }}
+	</div>
+</div><!-- / section -->
+
+
+<div class="section topspace bg-fixed-inset about-history" id="history" style="background: url('{{ .Site.BaseURL }}{{ $.Param "our_history_background" }}'); ">
+	<div class="row">
+		<div class="col-md-6 maincontent" style="float:left;">
+                <h2>{{ $.Param "our_history_title" }}</h2>
+                <p>{{ .Content }}</p>
+		</div>
+	</div>	
+</div><!-- / section -->
+
+<div class="section topspace about-oversight" id="oversight">
+	<div class="row">
+		<div class="col-md-12">
+			<h6 class="lead">{{ $.Param "oversight_title" }}</h6>
+			<p class="lead text-center text-muted about-mission-text">{{ $.Param "oversight_overview" }}</p>
+		</div>
+		<div class="col-md-4 maincontent oversight">
+				<a href="{{ .Site.BaseURL }}"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_core_img" }}" alt="{{ $.Param "oversight_core_title" }}" /></a>
+                <h4>{{ $.Param "oversight_core_title" }}</h4>
+                <p>{{ $.Param "oversight_core_text" }}</p>
+                <center><a href="{{ .Site.BaseURL }}"><button type="button" class="btn btn-primary">Learn More</button></a></center>
+		</div>
+		<div class="col-md-4 maincontent oversight">
+                 <a href="{{ $.Param "oversight_mcmin_url" }}" target="_blank"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_mcmin_img" }}" alt="{{ $.Param "oversight_mcmin_title" }}" /></a>
+                <h4>{{ $.Param "oversight_mcmin_title" }}</h4>
+                <p>{{ $.Param "oversight_mcmin_text" | markdownify }}</p>
+                <center><a href="{{ $.Param "oversight_mcmin_url" }}" target="_blank"><button type="button" class="btn btn-primary">Learn More</button></a></center>
+		</div>
+		<div class="col-md-4 maincontent oversight">
+                 <a href="{{ $.Param "oversight_abide_url" }}" target="_blank"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_abide_img" }}" alt="{{ $.Param "oversight_abide_title" }}" /></a>
+                <h4>{{ $.Param "oversight_abide_title" }}</h4>
+                <p>{{ $.Param "oversight_abide_text" | markdownify }}</p>
+                <center><a href="{{ $.Param "oversight_abide_url" }}" target="_blank"><button type="button" class="btn btn-primary">Learn More</button></a></center>
+		</div>
+	</div>	
+</div><!-- / section -->
+
+	</div>	<!-- /container -->
+
+{{ partial "about_team_modal.html" . }}
+</main>
+
+{{ partial "footer.html" . }}

@@ -1,7 +1,7 @@
 +++
 menu = ""
 parent = ""
-title = "Cultivate Kingdom Worker Development Fund"
+title = "Donate"
 type = "campaign"
 weight = 10
 ministryname = "Cultivate"
