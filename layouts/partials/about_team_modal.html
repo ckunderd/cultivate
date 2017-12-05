@@ -1,0 +1,53 @@
+{{ "<!-- Portfolio Modals -->" | safeHTML }}
+{{ range .Site.Data.about_team }}
+  <div class="portfolio-modal modal fade" id="about_teamModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+            {{ $url := printf "img/about_team/%s" .img }}
+              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+              <h2>{{ .title  | markdownify }}</h2>
+              <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
+              <p style="margin-bottom: 30px;">{{ .description | markdownify }}</p>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}
+{{ range .Site.Data.kingdom_work }}
+  <div class="portfolio-modal modal fade" id="about_teamModal{{ .modalID }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+      <div class="close-modal" data-dismiss="modal">
+        <div class="lr">
+          <div class="rl">
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2">
+            <div class="modal-body">
+            {{ $url := printf "img/about_team/%s" .img }}
+              <img class="img-responsive img-centered" src="{{ $url | absURL }}" alt="">
+              <h2>{{ .title  | markdownify }}</h2>
+              <p class="item-intro text-muted">{{ .subtitle | markdownify }}</p>
+              <p style="margin-bottom: 30px;">{{ .description | markdownify }}</p>
+              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> {{ with $.Site.Params.portfolio.modal.buttonText }}{{ . }}{{ end }}</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{{ end }}

@@ -34,9 +34,9 @@
 	{{ partial "menu.html" . }}
 	<div id="head" class="parallax {{ $.Param "ministryname"}} {{ $.Param "ministryposition" }}" parallax-speed="2">
 		<h1 id="logo">
-			<span class="title">{{ if isset .Params "campaign_head_message_light" }}{{ $.Param "campaign_head_message_light"}} <strong>{{ $.Param "campaign_head_message_bold"}}</strong>{{ else }}{{ .Site.Params.head_message_light }} <strong>{{ .Site.Params.head_message_bold }}</strong>{{ end }}</span>
-			<span class="tagline">{{ if isset .Params "campaign_description"}}{{ $.Param "campaign_description" }}{{ else }}{{ .Site.Params.Mdescription }}{{ end }}<br>
-				{{ if isset .Params "campaign_action"}}<span class="action">{{ $.Param "campaign_action" | markdownify }}</span><br>{{ end }}
+			<span class="title">{{ if isset .Params "head_message_light" }}{{ $.Param "head_message_light"}} <strong>{{ $.Param "head_message_bold"}}</strong>{{ else }}{{ .Site.Params.head_message_light }} <strong>{{ .Site.Params.head_message_bold }}</strong>{{ end }}</span>
+			<span class="tagline">{{ if isset .Params "head_description"}}{{ $.Param "head_description" }}{{ else }}{{ .Site.Params.Mdescription }}{{ end }}<br>
+				{{ if isset .Params "head_action"}}<span class="action">{{ $.Param "head_action" | markdownify }}</span><br>{{ end }}
 				<!--{{ if .IsHome }}<a href="{{ .Site.BaseURL }}/abide" class="btn btn-action">Learn More</a>{{end}}-->
             	<a href="{{ if .IsHome }}/kwdf{{ else }}#subheader{{end}}" class="page-scroll"><button class="btn btn-action">Learn More</button></a>
             </span>

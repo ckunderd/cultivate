@@ -33,6 +33,21 @@ publishDir = "docs"
     url = "/"
     weight = 1
 [[menu.main]]
+	name = "about"
+	url = "../about"
+	identifier = "about"
+	weight = 3
+[[menu.main]]
+	name = "vision"
+	url = "../about/#subheader"
+	parent = "about"
+	weight = 1
+[[menu.main]]
+	name = "overview"
+	url = "../about/#overview"
+	parent = "about"
+	weight = 5
+[[menu.main]]
 	name = "Strategy"
 	url = "/#featured"
 	weight = 5
@@ -41,17 +56,21 @@ publishDir = "docs"
 	url = "/#partners"
 	weight = 10
 [[menu.main]]
-	name = "Story"
-	url = "/#story"
-	weight = 12
-[[menu.main]]
 	name = "Donate"
 	url = "https://donorbox.org/cultivate"
-	weight = 15
+	identifier = "donate"
+	weight = 4
+[[menu.main]]
+	name = "Cam Underdown"
+	url = "/donate/cam"
+	parent = "donate"
+	weight = "5"
 [[menu.main]]
 	name = "Kingdom Worker Fund"
 	url = "/kwdf"
+	parent = "donate"
 	weight = 20
+
 	
 [params.disqus]
     site = "hugo-initio-site.disqus.com"

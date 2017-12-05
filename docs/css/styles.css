@@ -9,7 +9,7 @@ body {
   padding: 0;
 }
 .topspace {
-  margin-top: 40px;
+  padding-top: 40px;
 }
 
 .fa {
@@ -112,7 +112,9 @@ display:inline-block;
   text-align: left;
 }
 .dropdown ul.dropdown-menu > li > a {
-  padding: 5px 30px;
+  padding: 5px 15px;
+  width: 100%;
+  white-space: normal;
 }
 .navbar-default {
   background-color: transparent;
@@ -190,6 +192,10 @@ padding: 20px 0;
 }
 .navbar-sticky.stick .nav-logo {display:block; }
 .navbar-sticky.stick .nav-logo img {height: 50px;}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
 /******************************************************************************
 
 
@@ -331,7 +337,7 @@ h6.lead {
   color: #7C7C7C;
   padding: 0 0 35px 0;
   height: 100vh;
-  border-bottom: 40px solid #7bb246;
+  border-bottom: 40px solid rgb(122,156,73);
     box-shadow: 0px 5px 40px #666;
 }
 [data-slides] {
@@ -694,8 +700,9 @@ p.version {
 .ministry-button-row {width: 100%; text-align: center;}
 .ministry-button {display: inline-block !important; width: 200px; margin-right: 20px !important; margin-bottom: 20px !important;}
 .ministry p.lead {font-weight: 200;}
+p.lead {margin-bottom: 40px;}
 .ministry-name {font-weight: 400; text-transform: uppercase;}
-.donate-overview h3 {font-variant: small-caps; font-weight: 200;}
+.donate-overview h3, .donate-information h3 {font-variant: small-caps; font-weight: 200;}
 .donate .col-md-6 {
     padding-left: 0;
     padding-right: 25px;
@@ -1185,9 +1192,32 @@ footer.entry-meta .meta-in {
    }
 }
 
+/*About*/
+.bg-fixed-inset {
+	background-size: contain !important;
+	background-color: #111 !important;
+	background-attachment: fixed !important;
+	color: white;
+	background-repeat: no-repeat !important;
+	background-position: center !important;
+	box-shadow: inset 0px 10px 60px #000;
+	-moz-box-shadow: inset 0px 10px 60px #000;
+	-webkit-box-shadow: inset 0px 10px 60px #000;
+	min-height: 100vh;
+	border-top: 40px solid rgb(122,156,73);
+	border-bottom: 40px solid rgb(122,156,73); 
+}
+.bg-fixed-inset h2 {color: white;}
+.bg-fixed-inset h3 {color: white; font-size: 1.25rem; font-variant: small-caps;}
+.about-oversight img {
+    width: 60%;
+    margin: 0 auto;
+}
+.about-oversight h4 { text-align: center; }
+
 /*Campaign*/
 
-.campaign_call_title {
+.call_title {
     font-variant: small-caps;
 }
 

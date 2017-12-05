@@ -14,8 +14,15 @@
 
             <ul class="nav navbar-nav">
                 {{ range .Site.Menus.main }}
-                <li>
+                <li class="dropdown">
                     <a href="{{ .URL }}" class="page-scroll">{{ .Name }}</a>
+                    {{ if .HasChildren }}
+                    <ul class="dropdown-menu" class="page-scroll">
+                      {{ range .Children }}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                      {{ end }}
+                    </ul>
+                    {{ end }}
                 </li>
                 {{end}}
                 <!--
