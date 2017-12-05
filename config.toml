@@ -34,17 +34,17 @@ publishDir = "docs"
     weight = 1
 [[menu.main]]
 	name = "about"
-	url = "../about"
+	url = "/about"
 	identifier = "about"
 	weight = 3
 [[menu.main]]
 	name = "vision"
-	url = "../about/index.html#subheader"
+	url = "/about/index.html#subheader"
 	parent = "about"
 	weight = 1
 [[menu.main]]
 	name = "overview"
-	url = "../about/index.html#overview"
+	url = "/about/index.html#overview"
 	parent = "about"
 	weight = 5
 [[menu.main]]
@@ -67,7 +67,7 @@ publishDir = "docs"
 	weight = "5"
 [[menu.main]]
 	name = "Kingdom Worker Fund"
-	url = "/kwdf"
+	url = "/donate/kwdf"
 	parent = "donate"
 	weight = 20
 
