@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; URL='https://cultivateoakland.org/kwdf'" />
+<meta http-equiv="refresh" content="0; URL='https://cultivateoakland.org/doante/kwdf'" />

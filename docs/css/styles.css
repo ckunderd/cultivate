@@ -232,6 +232,7 @@ p {
   line-height: 1.6em;
   margin: 0 0 30px 0;
   font-weight: 200;
+  font-size: 1.2rem;
 }
 ul,
 ol {
@@ -1210,10 +1211,11 @@ footer.entry-meta .meta-in {
 .bg-fixed-inset h2 {color: white;}
 .bg-fixed-inset h3 {color: white; font-size: 1.25rem; font-variant: small-caps;}
 .about-oversight img {
-    width: 60%;
+    width: 150px;
     margin: 0 auto;
 }
 .about-oversight h4 { text-align: center; }
+.oversight {margin-top: 40px;}
 
 /*Campaign*/
 
@@ -1361,8 +1363,10 @@ h6.campaign_staff_title {
     opacity: 0;
 }
 
+.about-team .portfolio-item p {min-height: 315px;}.
+.servant-leaders .portfolio-item p {min-height: 150px;}
 @media (min-width: 768px) {
-	.portfolio-item { min-height: 700px;}
+	.about-team .portfolio-item { min-height: 700px;}
 }
 
 .img-centered {

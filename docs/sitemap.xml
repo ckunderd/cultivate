@@ -7,6 +7,10 @@
   </url>
   
   <url>
+    <loc>https://cultivateoakland.org/donate/kwdf/</loc>
+  </url>
+  
+  <url>
     <loc>https://cultivateoakland.org/kwdf/</loc>
   </url>
   
@@ -21,6 +25,11 @@
   
   <url>
     <loc>https://cultivateoakland.org/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://cultivateoakland.org/donate/</loc>
     <priority>0</priority>
   </url>
   

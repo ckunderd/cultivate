@@ -39,12 +39,12 @@ publishDir = "docs"
 	weight = 3
 [[menu.main]]
 	name = "vision"
-	url = "../about/#subheader"
+	url = "../about/index.html#subheader"
 	parent = "about"
 	weight = 1
 [[menu.main]]
 	name = "overview"
-	url = "../about/#overview"
+	url = "../about/index.html#overview"
 	parent = "about"
 	weight = 5
 [[menu.main]]

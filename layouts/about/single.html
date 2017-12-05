@@ -67,22 +67,22 @@
 			<h6 class="lead">{{ $.Param "oversight_title" }}</h6>
 			<p class="lead text-center text-muted about-mission-text">{{ $.Param "oversight_overview" }}</p>
 		</div>
-		<div class="col-md-4 maincontent">
+		<div class="col-md-4 maincontent oversight">
 				<a href="{{ .Site.BaseURL }}"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_core_img" }}" alt="{{ $.Param "oversight_core_title" }}" /></a>
                 <h4>{{ $.Param "oversight_core_title" }}</h4>
                 <p>{{ $.Param "oversight_core_text" }}</p>
                 <center><a href="{{ .Site.BaseURL }}"><button type="button" class="btn btn-primary">Learn More</button></a></center>
 		</div>
-		<div class="col-md-4 maincontent">
+		<div class="col-md-4 maincontent oversight">
                  <a href="{{ $.Param "oversight_mcmin_url" }}" target="_blank"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_mcmin_img" }}" alt="{{ $.Param "oversight_mcmin_title" }}" /></a>
                 <h4>{{ $.Param "oversight_mcmin_title" }}</h4>
-                <p>{{ $.Param "oversight_mcmin_text" }}</p>
+                <p>{{ $.Param "oversight_mcmin_text" | markdownify }}</p>
                 <center><a href="{{ $.Param "oversight_mcmin_url" }}" target="_blank"><button type="button" class="btn btn-primary">Learn More</button></a></center>
 		</div>
-		<div class="col-md-4 maincontent">
+		<div class="col-md-4 maincontent oversight">
                  <a href="{{ $.Param "oversight_abide_url" }}" target="_blank"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_abide_img" }}" alt="{{ $.Param "oversight_abide_title" }}" /></a>
                 <h4>{{ $.Param "oversight_abide_title" }}</h4>
-                <p>{{ $.Param "oversight_abide_text" }}</p>
+                <p>{{ $.Param "oversight_abide_text" | markdownify }}</p>
                 <center><a href="{{ $.Param "oversight_abide_url" }}" target="_blank"><button type="button" class="btn btn-primary">Learn More</button></a></center>
 		</div>
 	</div>	
