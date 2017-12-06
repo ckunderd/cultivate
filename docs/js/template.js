@@ -52,42 +52,26 @@ $(document).ready(function(){
   });
 });
 
-/*! slides | https://gist.github.com/mhulse/66bcbb7099bb4beae530 
-(function($) {
-	
-	'use strict';
-	
-	var $slides = $('[data-slides]');
-	var images = $slides.data('slides');
-	var count = images.length;
-	var slideshow = function() {
-		$slides
-			.css('background-image', 'url("' + images[Math.floor(Math.random() * count)] + '")')
-			.show(0, function() {
-				setTimeout(slideshow, 5000);
-			});
-	};
-	
-	slideshow();
-	
-}(jQuery));*/
-/*!
- * By Eharry.me (https://gist.github.com/Ema4rl/b8ef90be99205ddada5ef2cd6e632ebe)
- */
- ! function ($) {
-    "use strict";
-    var slide = $("[data-slides]"),
-        count = 0,
-        slides = slide.data("slides"),
-        len = slides.length,
-        n = function () {
-            if (count >= len) {
-                count = 0
-            }
-            slide.css("background-image", 'url("' + slides[count] + '")').show(0, function () {
-                setTimeout(n, 5e3)
-            });
-            count++;
-        };
-    n()
-}(jQuery);
+function openStrategy(evt, strategyName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the button that opened the tab
+    document.getElementById(strategyName).style.display = "block";
+    evt.currentTarget.className += " active";
+    
+}
+
+document.getElementById("defaultOpen").click();

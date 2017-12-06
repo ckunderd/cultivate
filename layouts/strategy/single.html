@@ -4,84 +4,78 @@
 
 	<div class="container">
 	
-	<div class="section topspace about-mission" id="subheader">
-
-	</div> <!-- / section -->
-	
-	<div class="section topspace bg-fixed-inset about-overview" id="overview" style="background: url('{{ .Site.BaseURL}}{{ $.Param "overview_background" }}')">
+	<div class="section topspace strategy-subheader" id="subheader">
 		<div class="row">
-			<div class="col-md-6 maincontent" style="float:right;">
-                <h2>{{ $.Param "overview_title" | markdownify }}</h2>
-                <p>{{ $.Param "overview_text" | markdownify }}</p>
+    		<div class="col-md-12">
+    			<h6 class="lead">{{ $.Param "our_vision_title" }}</h6>
+        			<p class="lead text-center text-muted about-mission-text">
+        				{{ $.Param "our_vision_text" | markdownify }}
+        			</p>
+        			<center><a href="#overview"><button type="button" class="btn btn-primary">Learn More</button></a></center>
+    		</div>
+    	</div>
+	</div> <!-- / section -->
+
+	<div class="topspace strategy-all bg-fixed-inset" id="overview" style="background:url('{{ .Site.BaseURL }}{{ $.Param "overview_background" }}'); background-size: cover !important;">
+	<div class="strategy-tabs">
+		<div class="row">
+			<h6 class="lead">Strategy Specifics</h6>
+			<div class="tab">
+			<ul>
+			  <li class="strategy-tab"><button class="tablinks" onclick="openStrategy(event, 'People')" id="defaultOpen"><img src="{{ .Site.BaseURL }}images/icon.png" /><br><br>People</button></li>
+			  <li class="strategy-tab"><button class="tablinks" onclick="openStrategy(event, 'Plans')"><img src="{{ .Site.BaseURL }}images/icon2.png" /><br><br>Plans</button></li>
+			  <li class="strategy-tab"><button class="tablinks" onclick="openStrategy(event, 'Prayer')"><img src="{{ .Site.BaseURL }}images/icon3.png" /><br><br>Prayer</button></li>
+			</ul>
 			</div>
-		</div>	
-	</div><!-- / section -->
-
-
-
-<div class="section topspace about-team" id="team">
-	<div class="row">
-		<div class="col-md-12"><h6 class="lead">{{ $.Param "our_team_title" }}</h6></div>
-		      {{ range .Site.Data.about_team }}
-        <div class="col-md-4 col-sm-6 portfolio-item">
-          <a href="#about_teamModal{{ .modalID }}" class="portfolio-link" data-toggle="modal">
-            {{ $url := printf "img/about_team/%s" .preview }}
-            <img src="{{ $url | absURL }}" class="img-responsive img-centered" alt="">
-          </a>
-          <div class="portfolio-caption">
-            <h4 class="text-center" style="margin-top:20px;">{{ .title | markdownify }}</h4>
-            <p class="text-muted text-center">{{ .subtitle | markdownify }}</p>
-          </div>
-          <div class="portfolio-hover">
-              <div class="portfolio-hover-content">
-                <a href="#about_teamModal{{ .modalID }}" data-toggle="modal"><button type="button" class="btn btn-primary" style="margin-bottom: 30px;">Read More</button></a>
-              </div>
-            </div>
-        </div>
-      {{ end }}
+		</div>
 	</div>
-</div><!-- / section -->
+	<div class="strategy-overview">
+		<div class="row">
+			<div id="People" class="tabcontent">
+			  <h4>How do we develop the Christlike character needed to grow God's Kingdom?</h4>
+			  <center>
+			  {{ range .Site.Data.people }}
+			  <a href="#peopleModal{{ .modalID }}" class="portfolio-link" data-toggle="modal"><button type="button" class="btn btn-primary greenalpha08 people">{{ .title | markdownify }}</button></a>
+			  {{ end }}
+			  </center>
+			</div>
+
+			<div id="Plans" class="tabcontent">
+			<h4>What goes into a plan that grows God's Kingdom?</h4>
+			  <center>
+			  {{ range .Site.Data.plans }}
+			  <a href="#plansModal{{ .modalID }}" class="portfolio-link" data-toggle="modal"><button type="button" class="btn btn-primary greenalpha08 plan">{{ .title | markdownify }}</button></a>
+			  {{ end }}
+			  </center>
+			</div>
+
+			<div id="Prayer" class="tabcontent">
+			  <h4>What does prayer grow God's Kingdom?</h4>
+			  <center>
+			  {{ range .Site.Data.prayer }}
+			  <a href="#prayerModal{{ .modalID }}" class="portfolio-link" data-toggle="modal"><button type="button" class="btn btn-primary greenalpha08 plan">{{ .title | markdownify }}</button></a>
+			  {{ end }}
+			  </center>
+			</div>
+		</div>
+	</div>
+	</div><!--Section-->
 
 
-<div class="section topspace bg-fixed-inset about-history" id="history" style="background: url('{{ .Site.BaseURL }}{{ $.Param "our_history_background" }}'); ">
+
+<div class="section topspace strategy-philosophy" id="philosophy">
 	<div class="row">
-		<div class="col-md-6 maincontent" style="float:left;">
-                <h2>{{ $.Param "our_history_title" }}</h2>
-                <p>{{ .Content }}</p>
+		<div class="col-md-12"><h6 class="lead">{{ $.Param "strategy_philosophy_title" }}</h6>
+		</div> 
+		<div class="col-md-8 col-sm-offset-2">
+		{{ .Content }}
 		</div>
-	</div>	
-</div><!-- / section -->
-
-<div class="section topspace about-oversight" id="oversight">
-	<div class="row">
-		<div class="col-md-12">
-			<h6 class="lead">{{ $.Param "oversight_title" }}</h6>
-			<p class="lead text-center text-muted about-mission-text">{{ $.Param "oversight_overview" }}</p>
-		</div>
-		<div class="col-md-4 maincontent oversight">
-				<a href="{{ .Site.BaseURL }}"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_core_img" }}" alt="{{ $.Param "oversight_core_title" }}" /></a>
-                <h4>{{ $.Param "oversight_core_title" }}</h4>
-                <p>{{ $.Param "oversight_core_text" }}</p>
-                <center><a href="{{ .Site.BaseURL }}"><button type="button" class="btn btn-primary">Learn More</button></a></center>
-		</div>
-		<div class="col-md-4 maincontent oversight">
-                 <a href="{{ $.Param "oversight_mcmin_url" }}" target="_blank"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_mcmin_img" }}" alt="{{ $.Param "oversight_mcmin_title" }}" /></a>
-                <h4>{{ $.Param "oversight_mcmin_title" }}</h4>
-                <p>{{ $.Param "oversight_mcmin_text" | markdownify }}</p>
-                <center><a href="{{ $.Param "oversight_mcmin_url" }}" target="_blank"><button type="button" class="btn btn-primary">Learn More</button></a></center>
-		</div>
-		<div class="col-md-4 maincontent oversight">
-                 <a href="{{ $.Param "oversight_abide_url" }}" target="_blank"><img class="img-responsive" src="{{ .Site.BaseURL}}{{ $.Param "oversight_abide_img" }}" alt="{{ $.Param "oversight_abide_title" }}" /></a>
-                <h4>{{ $.Param "oversight_abide_title" }}</h4>
-                <p>{{ $.Param "oversight_abide_text" | markdownify }}</p>
-                <center><a href="{{ $.Param "oversight_abide_url" }}" target="_blank"><button type="button" class="btn btn-primary">Learn More</button></a></center>
-		</div>
-	</div>	
+	</div>
 </div><!-- / section -->
 
 	</div>	<!-- /container -->
 
-{{ partial "about_team_modal.html" . }}
+{{ partial "strategy_modal.html" . }}
 </main>
 
 {{ partial "footer.html" . }}
