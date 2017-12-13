@@ -1,5 +1,6 @@
 +++
 menu = ""
+url = "/donate/kwdf"
 parent = "donate"
 title = "Cultivate Kingdom Worker Development Fund"
 type = "campaign"
