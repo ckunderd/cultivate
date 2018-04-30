@@ -31,7 +31,7 @@ oversight_abide_text = "Mike Carnill and Abide Ministries provide financial and 
 oversight_abide_url = "https://abide.community"
 +++
 
-### Told by Cam Underdown, Cultivate Director
+### Told by Cam Underdown, Cultivate Founder
 
 In 2012, I felt the call to come back to Oakland University to pastor the people of the campus. God gave me three specific directives in leaving the ministry I had at Kensington, and beginning the new one at Oakland:
 

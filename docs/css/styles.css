@@ -1263,7 +1263,6 @@ h2.campaign_staff_name {
     color: #666;
     font-variant: small-caps;
     text-align: center;
-    margin-top: -40px;
 }
 
 h6.campaign_staff_title {
@@ -1272,6 +1271,8 @@ h6.campaign_staff_title {
     color: #666;
     text-align: center;
 }
+
+.col-md-6.campaign_staff {text-align: center;}
 
 .servant-leaders h2, .donate h2 {
     font-variant: small-caps;

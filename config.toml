@@ -79,13 +79,8 @@ publishDir = "docs"
 	identifier = "donate"
 	weight = 4
 [[menu.main]]
-	name = "Cam Underdown"
-	url = "/donate/cam"
-	parent = "donate"
-	weight = "5"
-[[menu.main]]
 	name = "David-Chad Svenson"
-	url = "/donate/dc"
+	url = "https://donorbox.org/cultivate"
 	parent = "donate"
 	weight = "10"
 [[menu.main]]
