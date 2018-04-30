@@ -75,7 +75,7 @@ publishDir = "docs"
 	weight = 10
 [[menu.main]]
 	name = "Donate"
-	url = "/donate"
+	url = "#"
 	identifier = "donate"
 	weight = 4
 [[menu.main]]
