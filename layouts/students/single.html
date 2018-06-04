@@ -1,0 +1,193 @@
+{{ partial "header.html" . }}
+
+<main id="main">
+
+	<div class="container">
+	
+	<div class="section topspace subheader" id="subheader">
+<div class="row topspace">
+    <div class="col-md-8 col-md-offset-2">
+        <p class="lead text-center text-muted call_title">{{ $.Param "call_title" }}</p>
+			<p>{{ $.Param "campaign_call_message" }}</p>
+			<hr />
+			<p class="lead text-center text-muted call_title">Involvement</p>
+			{{.Content}}
+    </div>
+    </div>
+</div> <!-- / section -->
+
+<div class="section ministry-overview" id="about-{{ $.Param "campaignurl" }}" {{ if isset .Params "overview_image" }}style="background:url('{{ .Site.BaseURL }}{{ $.Param "overview_image" }}') no-repeat top fixed rgb(73,73,73); background-blend-mode: soft-light; background-size: cover;" {{end}}>
+<div class="row">
+<div class="col-md-10 col-md-offset-1">
+<h2>Help us get to know you.</h2>
+<p>If you are interested in getting involved, please fill out the form to help us get to know you better. Once you fill it out, a member of our team will reach out!</p>
+<form  action="{{ $.Param "action" }}" method="POST" name="sentMessage" id="contactForm">
+
+          <fieldset>
+            <div class="row">
+              <div class="col-md-12">
+
+                <div class="form-group">
+                  <input class="form-control" id="name" required="required" type="text" name="name" placeholder="Full Name" data-validation-error-msg=""></input>
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" id="email" required="required" type="email" name="email" placeholder="Email Address" data-validation-error-msg=""></input>
+                  <p class="help-block text-danger"></p>
+                </div>
+
+                <div class="form-group">
+                  <input class="form-control" id="phone" required="required" type="number" name="phone" placeholder="Phone Number" data-validation-error-msg=""></input>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input class="form-control" id="birthdate" required="required" type="datepicker" name="birthdate" placeholder="Birthdate" data-validation-error-msg=""></input>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input class="form-control" id="gender" required="required" type="text" name="gender" placeholder="Gender" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input class="form-control" id="major" required="required" type="text" name="major" placeholder="Major" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input class="form-control" id="year" required="required" type="text" name="year" placeholder="Year in School" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input class="form-control" id="career" required="required" type="text" name="career" placeholder="What's your present career choice, if applicable?" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <textarea class="form-control" id="passion" required="required" type="text" name="passion" placeholder="What are you passionate about?" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <textarea class="form-control" id="ministry" required="required" type="text" name="ministry" placeholder="Have you ever been involved with a campus ministry or campus organization at Oakland? If yes, how so?" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <textarea class="form-control" id="how-did-you-hear" required="required" type="text" name="how-did-you-hear" placeholder="How did you hear about Cultivate?" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <textarea class="form-control" id="interests" required="required" type="text" name="interests" placeholder="What interests you about Cultivate?" data-validation-error-msg=""></textarea>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+                <div class="form-group">
+                  <input class="form-control" id="MBPT" required="" type="text" name="MBPT" placeholder="If you know it and are willing to share, please list your Myers Briggs Personality Type:" data-validation-error-msg=""></input>
+                  <p class="help-block text-danger"></p>
+                </div>
+                
+              </div>
+
+              <div class="clearfix"></div>
+              <div class="col-lg-12 text-center">
+                <div class="text-success" id="success" style="display:none;">
+                  {{ with .Site.Params.contact.thanks }}
+                    {{ . | markdownify }}
+                  {{ else }}
+                    Thank you for contacting us.
+                  {{ end }}
+                </div>
+                <div class="text-danger" id="error" style="display:none;">
+                  {{ with .Site.Params.contact.error }}
+                    {{ . | markdownify }}
+                  {{ else }}
+                    Message could not be send. Please contact us at {{ (or .Site.Params.contact.email .Site.Params.email) }} instead.
+                  {{ end }}
+                </div><br />
+                <button type="submit" value="Submit" class="btn btn-xl">{{ $.Param "buttontext"}}</button>
+              </div>
+            </div>
+            {{ range .Site.Params.contact.form.hidden }}
+              {{ if eq .name "site" }}
+                <input type="hidden" name="{{ .name }}" value="{{ $.Permalink }}"/>
+              {{ else if eq .name "page" }}
+                <input type="hidden" name="{{ .name }}" value="{{ $.URL }}"/>
+              {{ else }}
+                <input type="hidden" name="{{ .name }}" value="{{ .value }}"/>
+              {{ end }}
+            {{ end }}
+          </fieldset>
+        </form>
+</div>
+</div>
+</div><!-- / ministry-overview -->
+
+<div class="section servant-leaders" id="meet-{{ $.Param "campaignurl" }}">
+	<h2>stories of <strong>kingdom workers.</strong></h2>
+{{ partial "portfolio.html" . }}
+</div>
+
+<div class="section donate" id="donate-to-{{ $.Param "campaignurl" }}">
+<hr style="width: 50%;" />
+	<div class="row">
+	<div class="col-md-12 donate-overview">
+		<h2>make a gift to <strong>support kingdom workers.</strong></h2>
+		</div>
+		<div class="col-md-6">
+			<div class="donate-information">
+		    	<p>In order to fund these opportunities, we are asking for your help. <strong>{{ $.Param "ministryname" }} is looking to add $20,000 to our {{ $.Param "campaignname" }} by the end of 2018.</strong></p> 
+
+<p>Specifically, we are looking for one time donations in the following amounts: 2 donations of $5,000, 5 donations of $1,000, 5 donations of $500, and 10 donations of $250. Every donation, no matter the amount, helps us continue to develop kingdom workers by providing opportunities for them to serve others while being coached in meaningful ways.</p>
+		    	
+		    	<p>{{ $.Param "ministryname" }} receives donations as part of Abide Ministries, a 501(c)(3) organization located in Rochester, MI that provides financial and organizational oversight. All donations made to {{ $.Param "ministryname" }} are tax-deductible through Abide Ministries. Abide partners with <a href="https://donorbox.org/" target="_blank">Donorbox</a> to enable donors to make one time and recurring donations, while allowing them to manage their own giving in a safe, secure, and reliable environment. </p>
+
+
+<h3>online gifts</h3>
+
+<p>Online gifts can be made using the form on this page, or at 
+<a href="https://donorbox.org/{{ $.Param "donorbox_id" }}" target="_blank">https://donorbox.org/{{ $.Param "donorbox_id" }}</a>. You can make one-time or recurring gifts using credit cards, debit cards, or bank transfers. All transactions are processed through Donorbox (a <a href="https://stripe.com" target="blank">Stripe</a> partner) for the highest level of security and convenience. Once you make a gift, you can manage your gift at <a href="donorbox.org" target="_blank">www.donorbox.org.</a></p>
+
+<h3>check gifts</h3>
+
+<p>Check gifts can be made out to:
+
+<p>Abide Ministries<br>
+323 Linwood Dr<br>
+Rochester, MI 48307</p>
+
+Please add “{{ $.Param "ministryname" }}” to the memo line of all check gifts. For any questions regarding giving, please email <a href="mailto:{{ $.Param "contact_email" }}">{{ $.Param "contact_email" }}.</a>
+</p>
+</div>
+		</div><!--col-md-6-->
+		<div class="col-md-6">
+			<div class="donate-form">
+<iframe class="donorbox-form" width="100%" height="1200px" src="https://donorbox.org/embed/{{ $.Param "donorbox_id" }}" frameborder="0" style="max-width:700px; min-width:310px; max-height:none!important" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no">
+</iframe>
+		</div>
+		</div>
+	</div>
+</div>
+
+<div class="section topspace contact" id="contact-{{ $.Param "ministryname" }}">
+<div class="row">
+<h2>Have a question?</h2>
+<form method="POST" action="https://formspree.io/{{ $.Param "contact_email" }}">
+  <div class="col-md-6"><input type="input" name="name" placeholder="Your name">
+  <input type="email" name="email" placeholder="Your email"></div>
+  <div class="col-md-6"><textarea name="message" placeholder="Your message"></textarea> <button type="submit">Send</button><input type="hidden" name="_next" value="{{ .Site.BaseURL }}{{ $.Param "donorbox_id" }}" />
+</div>
+</form>
+</div>
+</div>
+
+</div>	<!-- /container -->
+{{ partial "modals.html" . }}
+
+</main>
+{{ partial "footer.html" . }}

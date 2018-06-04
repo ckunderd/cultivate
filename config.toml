@@ -17,7 +17,7 @@ publishDir = "docs"
     email = "info@cultivateoakland.org"
     phone = ""
     address = "PO Box 210997, Auburn Hills MI 48321"
-    year = 2017
+    year = 2018
     background = ""
     favicon = "images/favicon.png"
     DateForm = "January 2, 2006"
@@ -61,6 +61,10 @@ publishDir = "docs"
 	url = "../about/index.html#oversight"
 	parent = "about"
 	weight = 20
+[[menu.main]]
+	name = "Students"
+	url = "/students"
+	weight = 6
 [[menu.main]]
 	name = "Strategy"
 	url = "/strategy"
