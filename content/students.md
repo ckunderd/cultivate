@@ -30,7 +30,7 @@ We are looking for people who are faithful, available, and teachable to join our
 
 - Meeting weekly with a mentor (we can help connect you with a mentor)
 - Attending a weekly class (such as spiritual gifts, apologetics, or biblical interpretation)
-- Serving within an existing campus ministry or campus organization (with the hope of welcome people to follow Jesus)
+- Serving within an existing campus ministry or campus organization (with the hope of welcoming people to follow Jesus)
 - Attending occasional trainings on personality type, leadership styles, and other assessment tools
 
 We recognize it’s a large commitment, but over the last 5 years, we have seen those who want to see God’s Kingdom grow become well equipped to do so through this commitment.
