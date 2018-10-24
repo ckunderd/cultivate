@@ -38,7 +38,7 @@
 			<span class="tagline">{{ if isset .Params "head_description"}}{{ $.Param "head_description" }}{{ else }}{{ .Site.Params.Mdescription }}{{ end }}<br>
 				{{ if isset .Params "head_action"}}<span class="action">{{ $.Param "head_action" | markdownify }}</span><br>{{ end }}
 				<!--{{ if .IsHome }}<a href="{{ .Site.BaseURL }}/abide" class="btn btn-action">Learn More</a>{{end}}-->
-            	<a href="{{ if .IsHome }}/kwdf{{ else }}#subheader{{end}}" class="page-scroll"><button class="btn btn-action">Learn More</button></a>
+            	<a href="{{ if .IsHome }}/donate/kwdf{{ else }}#subheader{{end}}" class="page-scroll"><button class="btn btn-action">Learn More</button></a>
             </span>
 		</h1>
 	</div>
