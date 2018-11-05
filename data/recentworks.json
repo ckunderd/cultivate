@@ -53,22 +53,5 @@
                 "url": "#"
             }
         ]
-    },
-    {
-        "id": 3,
-        "name": "SLAM",
-        "image": "../images/slam.png",
-        "url": "#",
-        "description": "This is the description.",
-        "items": [
-            {
-                "name": "",
-                "url": "#"
-            },
-            {
-                "name": "",
-                "url": "#"
-            }
-        ]
     }
 ]
