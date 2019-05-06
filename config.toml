@@ -17,7 +17,7 @@ publishDir = "docs"
     email = "dc@cultivateoakland.org"
     phone = ""
     address = "PO Box 210997, Auburn Hills MI 48321"
-    year = 2018
+    year = 2019
     background = ""
     favicon = "images/favicon.png"
     DateForm = "January 2, 2006"
@@ -83,7 +83,7 @@ publishDir = "docs"
 	identifier = "donate"
 	weight = 4
 [[menu.main]]
-	name = "David-Chad Svenson"
+	name = "General Fund"
 	url = "https://donorbox.org/cultivate"
 	parent = "donate"
 	weight = "10"
