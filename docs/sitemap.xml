@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://cultivateoakland.org/stories/rachel/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://cultivateoakland.org/stories/blake-and-tina/</loc>
     <lastmod>2018-02-09T00:00:00+00:00</lastmod>
   </url>
@@ -50,14 +55,12 @@
   
   <url>
     <loc>https://cultivateoakland.org/</loc>
-    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://cultivateoakland.org/stories/</loc>
-    <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -82,12 +85,10 @@
   
   <url>
     <loc>https://cultivateoakland.org/categories/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cultivateoakland.org/donate/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -104,12 +105,10 @@
   
   <url>
     <loc>https://cultivateoakland.org/service/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://cultivateoakland.org/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
