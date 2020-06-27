@@ -1,6 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://cultivateoakland.org/stories/noah/</loc>
+    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
+  </url>
   
   <url>
     <loc>https://cultivateoakland.org/stories/nicole/</loc>
@@ -65,32 +70,12 @@
   
   <url>
     <loc>https://cultivateoakland.org/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
+    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://cultivateoakland.org/stories/</loc>
-    <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://cultivateoakland.org/dc/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cultivateoakland.org/donate/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cultivateoakland.org/rsa/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://cultivateoakland.org/sldf/</loc>
-    <priority>0</priority>
+    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>

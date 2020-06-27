@@ -1,1 +1,0 @@
-<meta http-equiv="refresh" content="0; URL='https://drive.google.com/file/d/1qC0ziDI8kAVBgyDM1wSV_DJFuqAEpo3z/view?usp=sharing'" />

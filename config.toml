@@ -23,7 +23,7 @@ publishDir = "docs"
     DateForm = "January 2, 2006"
 
     showSubheader = true
-    showServices = true
+    showServices = false
     showRecentWorks = true
     showDownload = false
     showClients = false

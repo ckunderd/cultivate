@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Stories on Cultivate</title>
@@ -6,10 +6,19 @@
     <description>Recent content in Stories on Cultivate</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 27 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://cultivateoakland.org/stories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Noah&#39;s Story</title>
+      <link>https://cultivateoakland.org/stories/noah/</link>
+      <pubDate>Fri, 24 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://cultivateoakland.org/stories/noah/</guid>
+      <description>I have had the pleasure of knowing Noah for the past couple of years. Noah is a junior at Oakland University studying Communication. He joined Cultivate in the winter of 2019 and has grown immensely in the faith since. Noah’s faith was young when he joined Cultivate, in fact he gave his life to Christ a week before joining. Despite being so young in the faith, Noah’s heart for the Lord and his desire to pursue God has helped Noah to mature greatly in the faith and as a leader.</description>
+    </item>
     
     <item>
       <title>Nicole&#39;s Story</title>
@@ -45,8 +54,7 @@ As a freshman Hunter spottily attended Younglife, a campus ministry at Oakland U
       <pubDate>Fri, 09 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>https://cultivateoakland.org/stories/blake-and-tina/</guid>
-      <description>Blake Pokley is a senior at Oakland University. This is a story he wrote to inspire others to help someone he found in need. This story is a beautiful example of seeing people through the eyes of Christ, and the power of deep friendships between kingdom workers like Blake, Phill, and Kyle.
-On my way to work Wednesday, I was on Baldwin Road in Lake Orion and traffic was backed up.</description>
+      <description>Blake Pokley is a senior at Oakland University. This is a story he wrote to inspire others to help someone he found in need. This story is a beautiful example of seeing people through the eyes of Christ, and the power of deep friendships between kingdom workers like Blake, Phill, and Kyle.On my way to work Wednesday, I was on Baldwin Road in Lake Orion and traffic was backed up. We were going about 10 mph and would stop intermittently (but, I’m sure you all know how traffic back-ups work).</description>
     </item>
     
     <item>

@@ -1,1 +1,0 @@
-<meta http-equiv="refresh" content="0; URL='https://cultivateoakland.org/donate/kwdf'" />
