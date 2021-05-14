@@ -5,11 +5,7 @@
     <link>https://cultivateoakland.org/donate/</link>
     <description>Recent content in Donates on Cultivate</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://cultivateoakland.org/donate/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://cultivateoakland.org/donate/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Cultivate Kingdom Worker Development Fund</title>
       <link>https://cultivateoakland.org/donate/kwdf/</link>

@@ -5,11 +5,7 @@
     <link>https://cultivateoakland.org/service/</link>
     <description>Recent content in Services on Cultivate</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    
-	<atom:link href="https://cultivateoakland.org/service/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <language>en-us</language><atom:link href="https://cultivateoakland.org/service/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>People</title>
       <link>https://cultivateoakland.org/service/service1/</link>

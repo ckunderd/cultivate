@@ -1,109 +1,66 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
+    <loc>https://cultivateoakland.org/stories/vinny/</loc>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/noah/</loc>
     <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/nicole/</loc>
     <lastmod>2020-02-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/hunter/</loc>
     <lastmod>2019-12-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/rachel/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/blake-and-tina/</loc>
     <lastmod>2018-02-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/justin/</loc>
     <lastmod>2017-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/kyle/</loc>
     <lastmod>2017-12-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/dc/</loc>
     <lastmod>2017-11-12T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/about/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/students/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/donate/kwdf/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/strategy/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/kelly/</loc>
     <lastmod>2017-11-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/brian/</loc>
     <lastmod>2017-11-22T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cultivateoakland.org/stories/</loc>
-    <lastmod>2020-04-24T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+    <lastmod>2021-05-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://cultivateoakland.org/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/donate/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/service/service1/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/service/service2/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/service/service3/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/service/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://cultivateoakland.org/tags/</loc>
   </url>
-  
 </urlset>
