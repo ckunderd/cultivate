@@ -12,6 +12,7 @@ description = "img/portfolio/vinny.png"
 +++
 
 With the start of the winter 2021 semester, Cultivate launched their winter course titled: running a ministry 101. The course was designed to equip ministry leaders with the skills needed to start or revamp their ministries. Vinny Conforti, A junior at Oakland University, attended the class with the hope of helping his church start a young adult ministry.
+
 Vinny's dream started in the summer of 2020 when he started hosting small groups for his church at his house every Friday night. The group started small with a few of his friends showing up, but it quickly gained traction. Soon new faces arrived, and a tight-knit community developed. As the summer ended and students went back to their colleges, Vinny caught a glimpse of what a ministry at his church could look like and was eager to make his dream a reality.
 
 Throughout the ten weeks in the course, Vinny learned how to run his college ministry effectively. Vinny learned about the four aspects of every ministry: community, teaching, outreach, and development. Some of the topics covered taught Vinny how to craft a mission statement, recruit leaders, and build healthy leadership teams.
