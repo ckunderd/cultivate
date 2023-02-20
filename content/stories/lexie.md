@@ -1,0 +1,34 @@
++++
+menu = ""
+parent = ""
+title = "Lexies's Story"
+type = ""
+date = "2020-06-28"
+weight = 10
+header_image = "images/cultivate_bg6.jpg"
+head_message_light = "Lexie"
+head_message_bold = ""
+description = "img/portfolio/lexie.png"
++++
+
+Lexie will be a senior in the fall of 2020, studying elementary education. Lexie joined Cultivate in the fall of 2018 and has grown dramatically in the faith as she has gained confidence in herself, her relationship with God, and her ability to lead! Lexie has stepped into her various leadership positions at LifeChurch Auburn Hills and Younglife.
+
+Lexie entered as a freshman in 2017 with a major in dance. Dancing has always been one of Lexie’s passions, and she dreams of opening a dance studio one day. As one of the few out of state students at Oakland, Lexie was excited to have a fresh start and make new friends. Lexie’s bubbly personality and heart for others drew new friendships to her. Despite being known by many, Lexie struggled to find a community to grow within her faith. Even still, she continued in her pursuit of the Lord.
+
+In the winter of her freshman year, Lexie attended a walleyball party that Younglife was throwing. It was her first time attending Younglife, and she fell in love with the people there. Lexie began attending Younglife and quickly became one of the more active members. As the winter semester progressed, Lexie began to develop a community of believers that encouraged her and supported her. Lexie’s ability to connect with others sparked the interest of the Younglife leadership team. The leadership team asked Lexie to be a leader in the fall of 2018, but Lexie declined. Later on, Lexie talked to one of the leaders privately, and she confessed that she didn’t feel capable of leading others and that she needed to know more before she could influence others. She didn’t feel equipped.
+
+As the start of her sophomore year approached, Lexie desired to continue growing in her faith, but her fear of not knowing enough kept her from getting involved on campus. Through the fall semester of her sophomore year, Lexie grew tremendously in her relationship with God. She developed a better prayer life and spiritual disciplines but still struggled to let others invest in her. In the winter of 2018, Lexie was asked if she would like to be a part of Cultivate. Lexie hesitantly accepted and began attending Cultivate’s class on apologetics. Lexie continued to grow in the faith and took baby steps to become more involved in campus ministries. Near the end of her sophomore year, Lexie took a huge leap of faith. She began speaking at Younglife’s large group events! This decision was a battle for her as she felt unequipped, but at the same time, knew that God was calling her to share! After a lot of praying, Lexie chose to trust in God and speak. She did an incredible job sharing her story and on the power of prayer. Her winning personality and ability to laugh at herself made for a great message. This was Lexie’s first step into a leadership position, since then she hasn’t looked back! Lexie began leading a bible study with one of her best friends, Ariel Themm. Lexie and Ariel lead a women’s group that studied prominent women in the Bible. Lexie grew in confidence as a leader and realized she could lead others!
+
+In Lexie’s junior year, she stepped into who God created her to be and shined! A significant reason Lexie began to shine is that she started meeting with Denise Hillbom, a women’s discipleship leader at Epic Church. Lexie and Denise hit it off and became the best of friends. Denise’s ability to love and encourage Lexie has created a wonderful place for Lexie to express herself. Through Denise’s mentoring, Lexie has grown so much in her confidence and her relationship with God. In addition to meeting with a mentor, Lexie began working in LifeChurch Auburn Hills children’s music ministry. Lexie teaches dance and does cerography for the elementary students that attend LifeChurch one a weekly basis! In addition to working with LifeChurch, she continues to lead her bible study with Ariel and speaking for Younglife. Lexie has truly grown into a strong and confident leader.
+
+As Lexie enters her senior year, she will begin student teaching! She’s thrilled to work with elementary students in a nearby school. Lexie hopes to remain a big part of Younglife as well as LifeChurch’s ministry. In the future, Lexie has her eyes on working in elementary education and being an active part of children’s ministry. Through the opportunities that God has given Cultivate to invest into Lexie and through his glorious power and grace, Lexie has grown tremendously in the faith and as a leader!
+
+Below are quotes from Lexie and her mentor, Denise.
+
+"I remember coming in as a freshman in college, unsure of my capabilities as a leader. I knew I wanted to get involved in ministry but wasn’t sure where to begin. Through a friend, I heard about younglife, which soon led me to cultivate. With the amazing friendships I’ve formed and my ever-growing trust in God, I have been able to step out of my comfort zone and grow as an individual as well as a leader. Cultivate has made me aware of my spiritual strengths and has helped me to gain confidence in who I am as a follower of Christ. I am now speaking in front of groups and co-leading a women’s bible study of my own. Cultivate has provided me with the spiritual support and tools I’ve needed to grow into my potential as a leader. It has also led me to meet my mentor, Denise. She has quickly become a hugely influential person in my life. She is an outlet in times of need and love and supports me through the joys of life. Most of all, cultivate has given me people who care for me in ways that I will never forget and reassurance that God is with me through it all."
+-Lexie Albright
+
+"Cultivate has provided an opportunity for me to get to know Lexie on a deep spiritual level. Lexie’s childlike curiosity and desire to know Jesus never ceases to amaze me, and her sincere desire to learn about Scripture has made our conversations so much fun. As Lexie and I have dove into Scripture during our meetings, God has opened up some doors for some wonderful conversations. She possesses a willingness to be authentic about what she is feeling and thinking, which allows us to dive deeper into her life! I am so thankful that I get to be a safe space for her to ask questions and receive encouragement as she pursues Christ! Since Lexie and I have begun meeting together, Lexie has grown in her faith, willingness to trust God with the big things, and in her spiritual maturity.  Lexie is truly a gift to me, and I am so thankful that I get to encourage her in her faith."
+-Denise Hillbom
+
+*Written by Kyle Vens,  Director of Cultivate*
