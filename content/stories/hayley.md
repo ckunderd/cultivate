@@ -1,12 +1,12 @@
 +++
 menu = ""
 parent = ""
-title = "Hayley's Story"
+title = "Haley's Story"
 type = ""
 date = "2023-01-23"
 weight = 10
 header_image = "images/cultivate_bg6.jpg"
-head_message_light = "Hayley"
+head_message_light = "Haley"
 head_message_bold = ""
 description = "img/portfolio/hayley.png"
 +++
