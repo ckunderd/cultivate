@@ -13,9 +13,9 @@ description = "img/portfolio/luke.png"
 
 Luke started at Oakland in the fall of 2019. Luke choose Oakland because of the opportunity to be a part of the swim and dive team. Luke, a diver, was excited to make his mark on the team and be a division one athlete!
 
-As Luke began the year, he was shy and hesitant to talk to others. Early in the semester, Luke was approached by a member of Intervarsity during an outreach event. The chance to connect with others and grow in his faith intrigued Luke and he began attending their small group.
+As Luke began the year, he was shy and hesitant to talk to others. Early in the semester, Luke was approached by a member of InterVarsity during an outreach event. The chance to connect with others and grow in his faith intrigued Luke and he began attending their small group.
 
-Here is where Luke’s journey differs from many. Luke, unlike anyone I know, has a willingness to get take a step of faith and get involved in things. Luke went through the leadership development process with Intervarsity and a semester later became a leader. Luke’s unique position as a student athlete put him in prime spot to lead a bible study for athletes. The only challenge, Luke was nervous that he would be judged for sharing his faith.
+Here is where Luke’s journey differs from many. Luke, unlike anyone I know, has a willingness to get take a step of faith and get involved in things. Luke went through the leadership development process with InterVarsity and a semester later became a leader. Luke’s unique position as a student athlete put him in prime spot to lead a bible study for athletes. The only challenge, Luke was nervous that he would be judged for sharing his faith.
 
 Luke accepted the opportunity to lead a small group but was nervous to take the steps needed to get it started. Luke started working towards launching his small group in the fall of 2020 and, because of his nervousness, and Oakland going online for classes his group struggled to get off the ground. It is around this time that Luke and I met. The first time we met it was evident that Luke was nervous and shy. As we got to know each other Luke rarely looked me in the eye and spoke of his fear of being judged by his teammates and coaches.
 
