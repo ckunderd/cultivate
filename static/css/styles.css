@@ -1230,7 +1230,8 @@ img.list {
     margin-bottom: 20px;
     margin-top: 20px;
 }
-img.article {width: 50%; margin: 0 auto; margin-bottom: 20px; margin-top: 20px;}
+img.article {width: 50%; margin: 0 auto; margin-bottom: 20px; margin-top: 20px; border-radius: 50%;}
+img.list { border-radius: 50%; }
 /*About*/
 .bg-fixed-inset {
 	background-size: contain !important;
